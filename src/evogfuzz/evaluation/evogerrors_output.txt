@@ -1,0 +1,1169 @@
+Runtime: 229.27317261695862
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 0.88, 'RecursionError': 1.0, 'SyntaxError': 0.375, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.4})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.12, 'RecursionError': 0.0, 'SyntaxError': 0.625, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.6})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.2062, 'AttributeError': 0.0909, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.6, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0641, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 1.0})
+ | ('cos', {'AssertionError': 0.1237, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0147, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.08, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.032, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.16, 'ValueError': 0.4, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.1293, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.68, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.1265, 'AttributeError': 0.8636, 'RecursionError': 0.0, 'SyntaxError': 0.2222, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.1522, 'AttributeError': 0.0455, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.08, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 0.1512, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.7778, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.4, 'AttributeError': 0.6429, 'RecursionError': 0.0, 'SyntaxError': 0.2051, 'TypeError': 0.4, 'ValueError': 1.0, 'ZeroDivisionError': 0.9554})
+ | ('<value>', {'AssertionError': 0.6, 'AttributeError': 0.3571, 'RecursionError': 1.0, 'SyntaxError': 0.7949, 'TypeError': 0.6, 'ValueError': 0.0, 'ZeroDivisionError': 0.0446})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.9686, 'RecursionError': 0.75, 'SyntaxError': 0.5907, 'TypeError': 0.96, 'ValueError': 0.8, 'ZeroDivisionError': 0.0})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.0314, 'RecursionError': 0.25, 'SyntaxError': 0.4093, 'TypeError': 0.04, 'ValueError': 0.2, 'ZeroDivisionError': 1.0})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.5413, 'AttributeError': 0.7075, 'RecursionError': 0.4329, 'SyntaxError': 0.4583, 'TypeError': 0.6872, 'ValueError': 0.0733, 'ZeroDivisionError': 0.3333})
+ | ('<digit>', {'AssertionError': 0.4587, 'AttributeError': 0.2925, 'RecursionError': 0.5671, 'SyntaxError': 0.5417, 'TypeError': 0.3128, 'ValueError': 0.9267, 'ZeroDivisionError': 0.6667})
+<digit>:
+   ('1', {'AssertionError': 0.1101, 'AttributeError': 0.102, 'RecursionError': 0.1333, 'SyntaxError': 0.1111, 'TypeError': 0.0, 'ValueError': 0.0816, 'ZeroDivisionError': 0.0})
+ | ('2', {'AssertionError': 0.1284, 'AttributeError': 0.0, 'RecursionError': 0.0333, 'SyntaxError': 0.1111, 'TypeError': 0.1395, 'ValueError': 0.0408, 'ZeroDivisionError': 0.0})
+ | ('3', {'AssertionError': 0.0367, 'AttributeError': 0.0748, 'RecursionError': 0.0667, 'SyntaxError': 0.0694, 'TypeError': 0.1628, 'ValueError': 0.2245, 'ZeroDivisionError': 0.0833})
+ | ('4', {'AssertionError': 0.0459, 'AttributeError': 0.0068, 'RecursionError': 0.0, 'SyntaxError': 0.1806, 'TypeError': 0.2558, 'ValueError': 0.0748, 'ZeroDivisionError': 0.0})
+ | ('5', {'AssertionError': 0.055, 'AttributeError': 0.1701, 'RecursionError': 0.2333, 'SyntaxError': 0.125, 'TypeError': 0.0, 'ValueError': 0.1361, 'ZeroDivisionError': 0.0})
+ | ('6', {'AssertionError': 0.2477, 'AttributeError': 0.1156, 'RecursionError': 0.0, 'SyntaxError': 0.1389, 'TypeError': 0.0814, 'ValueError': 0.1088, 'ZeroDivisionError': 0.0417})
+ | ('7', {'AssertionError': 0.0367, 'AttributeError': 0.1769, 'RecursionError': 0.0667, 'SyntaxError': 0.0556, 'TypeError': 0.0465, 'ValueError': 0.1769, 'ZeroDivisionError': 0.0})
+ | ('8', {'AssertionError': 0.1468, 'AttributeError': 0.1565, 'RecursionError': 0.2, 'SyntaxError': 0.0278, 'TypeError': 0.1512, 'ValueError': 0.0272, 'ZeroDivisionError': 0.0833})
+ | ('9', {'AssertionError': 0.0367, 'AttributeError': 0.0748, 'RecursionError': 0.1667, 'SyntaxError': 0.125, 'TypeError': 0.0, 'ValueError': 0.0816, 'ZeroDivisionError': 0.0})
+ | ('0', {'AssertionError': 0.156, 'AttributeError': 0.1224, 'RecursionError': 0.1, 'SyntaxError': 0.0556, 'TypeError': 0.1628, 'ValueError': 0.0476, 'ZeroDivisionError': 0.7917})
+Runtime: 49.423011302948
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.3481, 'AttributeError': 0.4552, 'RecursionError': 0.4043, 'SyntaxError': 0.64, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.4783})
+ | ('<term> / <term>', {'AssertionError': 0.6519, 'AttributeError': 0.5448, 'RecursionError': 0.5957, 'SyntaxError': 0.36, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.5217})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1579, 'SyntaxError': 0.0625, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1053, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.04, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1053, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0526, 'SyntaxError': 0.1875, 'TypeError': 0.0, 'ValueError': 0.88, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0625, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.5789, 'SyntaxError': 0.125, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 1.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.08, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.5625, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.4167, 'AttributeError': 0.8636, 'RecursionError': 1.0, 'SyntaxError': 0.0882, 'TypeError': 0.4711, 'ValueError': 0.8532, 'ZeroDivisionError': 0.6857})
+ | ('<value>', {'AssertionError': 0.5833, 'AttributeError': 0.1364, 'RecursionError': 0.0, 'SyntaxError': 0.9118, 'TypeError': 0.5289, 'ValueError': 0.1468, 'ZeroDivisionError': 0.3143})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.7273, 'RecursionError': 0.5806, 'SyntaxError': 0.4706, 'TypeError': 0.5455, 'ValueError': 0.32, 'ZeroDivisionError': 0.4286})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.2727, 'RecursionError': 0.4194, 'SyntaxError': 0.5294, 'TypeError': 0.4545, 'ValueError': 0.68, 'ZeroDivisionError': 0.5714})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3766, 'AttributeError': 0.4648, 'RecursionError': 0.8454, 'SyntaxError': 0.505, 'TypeError': 0.5278, 'ValueError': 0.7591, 'ZeroDivisionError': 0.4885})
+ | ('<digit>', {'AssertionError': 0.6234, 'AttributeError': 0.5352, 'RecursionError': 0.1546, 'SyntaxError': 0.495, 'TypeError': 0.4722, 'ValueError': 0.2409, 'ZeroDivisionError': 0.5115})
+<digit>:
+   ('1', {'AssertionError': 0.0779, 'AttributeError': 0.1127, 'RecursionError': 0.0789, 'SyntaxError': 0.0221, 'TypeError': 0.0, 'ValueError': 0.0803, 'ZeroDivisionError': 0.2179})
+ | ('2', {'AssertionError': 0.026, 'AttributeError': 0.1549, 'RecursionError': 0.1262, 'SyntaxError': 0.2287, 'TypeError': 0.125, 'ValueError': 0.0365, 'ZeroDivisionError': 0.0385})
+ | ('3', {'AssertionError': 0.039, 'AttributeError': 0.0563, 'RecursionError': 0.0221, 'SyntaxError': 0.0846, 'TypeError': 0.25, 'ValueError': 0.1533, 'ZeroDivisionError': 0.0128})
+ | ('4', {'AssertionError': 0.0, 'AttributeError': 0.2817, 'RecursionError': 0.2114, 'SyntaxError': 0.0123, 'TypeError': 0.125, 'ValueError': 0.1533, 'ZeroDivisionError': 0.0513})
+ | ('5', {'AssertionError': 0.4416, 'AttributeError': 0.0423, 'RecursionError': 0.0, 'SyntaxError': 0.0654, 'TypeError': 0.0, 'ValueError': 0.1971, 'ZeroDivisionError': 0.0513})
+ | ('6', {'AssertionError': 0.1818, 'AttributeError': 0.1268, 'RecursionError': 0.1514, 'SyntaxError': 0.1615, 'TypeError': 0.0, 'ValueError': 0.1387, 'ZeroDivisionError': 0.0897})
+ | ('7', {'AssertionError': 0.0779, 'AttributeError': 0.0282, 'RecursionError': 0.1073, 'SyntaxError': 0.1387, 'TypeError': 0.1944, 'ValueError': 0.1314, 'ZeroDivisionError': 0.0})
+ | ('8', {'AssertionError': 0.0, 'AttributeError': 0.0845, 'RecursionError': 0.0473, 'SyntaxError': 0.0613, 'TypeError': 0.25, 'ValueError': 0.0438, 'ZeroDivisionError': 0.0769})
+ | ('9', {'AssertionError': 0.0909, 'AttributeError': 0.0986, 'RecursionError': 0.1262, 'SyntaxError': 0.025, 'TypeError': 0.0, 'ValueError': 0.0657, 'ZeroDivisionError': 0.0256})
+ | ('0', {'AssertionError': 0.0649, 'AttributeError': 0.0141, 'RecursionError': 0.1293, 'SyntaxError': 0.2004, 'TypeError': 0.0556, 'ValueError': 0.0, 'ZeroDivisionError': 0.4359})
+Runtime: 54.11294102668762
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.0799, 'AttributeError': 1.0, 'RecursionError': 1.0, 'SyntaxError': 0.6, 'TypeError': 0.5472, 'ValueError': 1.0, 'ZeroDivisionError': 0.0})
+ | ('<term> / <term>', {'AssertionError': 0.9201, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.4, 'TypeError': 0.4528, 'ValueError': 0.0, 'ZeroDivisionError': 1.0})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.08, 'AttributeError': 0.04, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.5294, 'ZeroDivisionError': None})
+ | ('tan', {'AssertionError': 0.12, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.4667, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('cos', {'AssertionError': 0.16, 'AttributeError': 0.08, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('sin', {'AssertionError': 0.04, 'AttributeError': 0.04, 'RecursionError': 0.0, 'SyntaxError': 0.5333, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('log', {'AssertionError': 0.08, 'AttributeError': 0.2, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.4706, 'ZeroDivisionError': None})
+ | ('len', {'AssertionError': 0.08, 'AttributeError': 0.2, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('inc', {'AssertionError': 0.04, 'AttributeError': 0.32, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('is_int', {'AssertionError': 0.4, 'AttributeError': 0.12, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+<term>:
+   ('-<value>', {'AssertionError': 0.52, 'AttributeError': 0.36, 'RecursionError': 0.0, 'SyntaxError': 0.8286, 'TypeError': 0.8, 'ValueError': 1.0, 'ZeroDivisionError': 0.72})
+ | ('<value>', {'AssertionError': 0.48, 'AttributeError': 0.64, 'RecursionError': 1.0, 'SyntaxError': 0.1714, 'TypeError': 0.2, 'ValueError': 0.0, 'ZeroDivisionError': 0.28})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.6, 'RecursionError': 0.4025, 'SyntaxError': 0.6857, 'TypeError': 0.45, 'ValueError': 0.5882, 'ZeroDivisionError': 0.58})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.4, 'RecursionError': 0.5975, 'SyntaxError': 0.3143, 'TypeError': 0.55, 'ValueError': 0.4118, 'ZeroDivisionError': 0.42})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3976, 'AttributeError': 0.403, 'RecursionError': 0.6224, 'SyntaxError': 0.1276, 'TypeError': 0.5167, 'ValueError': 0.325, 'ZeroDivisionError': 0.7685})
+ | ('<digit>', {'AssertionError': 0.6024, 'AttributeError': 0.597, 'RecursionError': 0.3776, 'SyntaxError': 0.8724, 'TypeError': 0.4833, 'ValueError': 0.675, 'ZeroDivisionError': 0.2315})
+<digit>:
+   ('1', {'AssertionError': 0.1205, 'AttributeError': 0.1217, 'RecursionError': 0.0102, 'SyntaxError': 0.0858, 'TypeError': 0.05, 'ValueError': 0.0046, 'ZeroDivisionError': 0.2769})
+ | ('2', {'AssertionError': 0.0723, 'AttributeError': 0.0255, 'RecursionError': 0.0918, 'SyntaxError': 0.0, 'TypeError': 0.2, 'ValueError': 0.109, 'ZeroDivisionError': 0.2231})
+ | ('3', {'AssertionError': 0.0, 'AttributeError': 0.1424, 'RecursionError': 0.0714, 'SyntaxError': 0.193, 'TypeError': 0.0167, 'ValueError': 0.1976, 'ZeroDivisionError': 0.0385})
+ | ('4', {'AssertionError': 0.1205, 'AttributeError': 0.0703, 'RecursionError': 0.1224, 'SyntaxError': 0.0992, 'TypeError': 0.0, 'ValueError': 0.2369, 'ZeroDivisionError': 0.1077})
+ | ('5', {'AssertionError': 0.1566, 'AttributeError': 0.1568, 'RecursionError': 0.2449, 'SyntaxError': 0.1635, 'TypeError': 0.1667, 'ValueError': 0.0354, 'ZeroDivisionError': 0.0769})
+ | ('6', {'AssertionError': 0.2169, 'AttributeError': 0.0534, 'RecursionError': 0.0612, 'SyntaxError': 0.1314, 'TypeError': 0.0833, 'ValueError': 0.0225, 'ZeroDivisionError': 0.0308})
+ | ('7', {'AssertionError': 0.0241, 'AttributeError': 0.0489, 'RecursionError': 0.0306, 'SyntaxError': 0.1072, 'TypeError': 0.1167, 'ValueError': 0.0734, 'ZeroDivisionError': 0.0308})
+ | ('8', {'AssertionError': 0.0, 'AttributeError': 0.1159, 'RecursionError': 0.0, 'SyntaxError': 0.2064, 'TypeError': 0.0, 'ValueError': 0.1191, 'ZeroDivisionError': 0.2077})
+ | ('9', {'AssertionError': 0.0361, 'AttributeError': 0.1145, 'RecursionError': 0.2755, 'SyntaxError': 0.0107, 'TypeError': 0.3333, 'ValueError': 0.0139, 'ZeroDivisionError': 0.0})
+ | ('0', {'AssertionError': 0.253, 'AttributeError': 0.1507, 'RecursionError': 0.0918, 'SyntaxError': 0.0027, 'TypeError': 0.0333, 'ValueError': 0.1876, 'ZeroDivisionError': 0.0077})
+Runtime: 46.161333084106445
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 0.32, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.0})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.68, 'SyntaxError': 1.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 1.0})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.625, 'ZeroDivisionError': None})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.375, 'ZeroDivisionError': None})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 1.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': None})
+<term>:
+   ('-<value>', {'AssertionError': 0.6069, 'AttributeError': 0.4348, 'RecursionError': 0.0, 'SyntaxError': 0.52, 'TypeError': 0.4737, 'ValueError': 0.5507, 'ZeroDivisionError': 0.42})
+ | ('<value>', {'AssertionError': 0.3931, 'AttributeError': 0.5652, 'RecursionError': 1.0, 'SyntaxError': 0.48, 'TypeError': 0.5263, 'ValueError': 0.4493, 'ZeroDivisionError': 0.58})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.3478, 'RecursionError': 0.7619, 'SyntaxError': 1.0, 'TypeError': 0.6316, 'ValueError': 0.8333, 'ZeroDivisionError': 0.32})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.6522, 'RecursionError': 0.2381, 'SyntaxError': 0.0, 'TypeError': 0.3684, 'ValueError': 0.1667, 'ZeroDivisionError': 0.68})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.4074, 'AttributeError': 0.7156, 'RecursionError': 0.3985, 'SyntaxError': 0.6711, 'TypeError': 0.4561, 'ValueError': 0.3125, 'ZeroDivisionError': 0.3529})
+ | ('<digit>', {'AssertionError': 0.5926, 'AttributeError': 0.2844, 'RecursionError': 0.6015, 'SyntaxError': 0.3289, 'TypeError': 0.5439, 'ValueError': 0.6875, 'ZeroDivisionError': 0.6471})
+<digit>:
+   ('1', {'AssertionError': 0.2099, 'AttributeError': 0.1276, 'RecursionError': 0.0797, 'SyntaxError': 0.0743, 'TypeError': 0.0206, 'ValueError': 0.0, 'ZeroDivisionError': 0.0648})
+ | ('2', {'AssertionError': 0.2099, 'AttributeError': 0.106, 'RecursionError': 0.1159, 'SyntaxError': 0.016, 'TypeError': 0.1499, 'ValueError': 0.0312, 'ZeroDivisionError': 0.0978})
+ | ('3', {'AssertionError': 0.0247, 'AttributeError': 0.0511, 'RecursionError': 0.0725, 'SyntaxError': 0.1947, 'TypeError': 0.0739, 'ValueError': 0.0781, 'ZeroDivisionError': 0.1943})
+ | ('4', {'AssertionError': 0.0, 'AttributeError': 0.1285, 'RecursionError': 0.1884, 'SyntaxError': 0.0741, 'TypeError': 0.1777, 'ValueError': 0.0781, 'ZeroDivisionError': 0.1964})
+ | ('5', {'AssertionError': 0.0247, 'AttributeError': 0.1006, 'RecursionError': 0.058, 'SyntaxError': 0.0032, 'TypeError': 0.1393, 'ValueError': 0.0, 'ZeroDivisionError': 0.0008})
+ | ('6', {'AssertionError': 0.1481, 'AttributeError': 0.1242, 'RecursionError': 0.1522, 'SyntaxError': 0.1654, 'TypeError': 0.0001, 'ValueError': 0.3594, 'ZeroDivisionError': 0.0688})
+ | ('7', {'AssertionError': 0.1852, 'AttributeError': 0.1749, 'RecursionError': 0.1377, 'SyntaxError': 0.13, 'TypeError': 0.0435, 'ValueError': 0.0625, 'ZeroDivisionError': 0.0204})
+ | ('8', {'AssertionError': 0.1975, 'AttributeError': 0.0065, 'RecursionError': 0.1522, 'SyntaxError': 0.1949, 'TypeError': 0.0572, 'ValueError': 0.2031, 'ZeroDivisionError': 0.1124})
+ | ('9', {'AssertionError': 0.0, 'AttributeError': 0.0753, 'RecursionError': 0.0435, 'SyntaxError': 0.1337, 'TypeError': 0.1397, 'ValueError': 0.0781, 'ZeroDivisionError': 0.0284})
+ | ('0', {'AssertionError': 0.0, 'AttributeError': 0.1052, 'RecursionError': 0.0, 'SyntaxError': 0.0137, 'TypeError': 0.198, 'ValueError': 0.1094, 'ZeroDivisionError': 0.2159})
+Runtime: 45.94245386123657
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.4, 'AttributeError': 0.4985, 'RecursionError': 0.5417, 'SyntaxError': 0.6, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.7773})
+ | ('<term> / <term>', {'AssertionError': 0.6, 'AttributeError': 0.5015, 'RecursionError': 0.4583, 'SyntaxError': 0.4, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.2227})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0417, 'RecursionError': 0.7692, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0515, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0417, 'RecursionError': 0.1538, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0756, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0769, 'SyntaxError': 0.3333, 'TypeError': 0.0, 'ValueError': 0.1321, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0833, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.048, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0417, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0392, 'ZeroDivisionError': 1.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0833, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.1049, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 0.5833, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.073, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0833, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.2273, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0417, 'RecursionError': 0.0, 'SyntaxError': 0.6667, 'TypeError': 0.0, 'ValueError': 0.2483, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.3661, 'AttributeError': 0.0, 'RecursionError': 0.6398, 'SyntaxError': 0.1714, 'TypeError': 0.4788, 'ValueError': 1.0, 'ZeroDivisionError': 0.087})
+ | ('<value>', {'AssertionError': 0.6339, 'AttributeError': 1.0, 'RecursionError': 0.3602, 'SyntaxError': 0.8286, 'TypeError': 0.5212, 'ValueError': 0.0, 'ZeroDivisionError': 0.913})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 0.8286, 'SyntaxError': 0.9429, 'TypeError': 0.88, 'ValueError': 0.84, 'ZeroDivisionError': 1.0})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1714, 'SyntaxError': 0.0571, 'TypeError': 0.12, 'ValueError': 0.16, 'ZeroDivisionError': 0.0})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.2079, 'AttributeError': 0.5, 'RecursionError': 0.3043, 'SyntaxError': 0.5211, 'TypeError': 0.8766, 'ValueError': 0.6892, 'ZeroDivisionError': 0.2977})
+ | ('<digit>', {'AssertionError': 0.7921, 'AttributeError': 0.5, 'RecursionError': 0.6957, 'SyntaxError': 0.4789, 'TypeError': 0.1234, 'ValueError': 0.3108, 'ZeroDivisionError': 0.7023})
+<digit>:
+   ('1', {'AssertionError': 0.0495, 'AttributeError': 0.0, 'RecursionError': 0.0543, 'SyntaxError': 0.1608, 'TypeError': 0.3333, 'ValueError': 0.0473, 'ZeroDivisionError': 0.0229})
+ | ('2', {'AssertionError': 0.1485, 'AttributeError': 0.0385, 'RecursionError': 0.0761, 'SyntaxError': 0.0988, 'TypeError': 0.0, 'ValueError': 0.1757, 'ZeroDivisionError': 0.0687})
+ | ('3', {'AssertionError': 0.0297, 'AttributeError': 0.1538, 'RecursionError': 0.0652, 'SyntaxError': 0.043, 'TypeError': 0.1522, 'ValueError': 0.0811, 'ZeroDivisionError': 0.1069})
+ | ('4', {'AssertionError': 0.0594, 'AttributeError': 0.125, 'RecursionError': 0.0761, 'SyntaxError': 0.1145, 'TypeError': 0.1444, 'ValueError': 0.027, 'ZeroDivisionError': 0.0916})
+ | ('5', {'AssertionError': 0.4158, 'AttributeError': 0.1538, 'RecursionError': 0.2391, 'SyntaxError': 0.0699, 'TypeError': 0.0367, 'ValueError': 0.0608, 'ZeroDivisionError': 0.0534})
+ | ('6', {'AssertionError': 0.1287, 'AttributeError': 0.0, 'RecursionError': 0.0217, 'SyntaxError': 0.0309, 'TypeError': 0.0499, 'ValueError': 0.0541, 'ZeroDivisionError': 0.0611})
+ | ('7', {'AssertionError': 0.0198, 'AttributeError': 0.1635, 'RecursionError': 0.1413, 'SyntaxError': 0.0423, 'TypeError': 0.0761, 'ValueError': 0.1824, 'ZeroDivisionError': 0.1374})
+ | ('8', {'AssertionError': 0.0, 'AttributeError': 0.1154, 'RecursionError': 0.0652, 'SyntaxError': 0.0878, 'TypeError': 0.1522, 'ValueError': 0.0203, 'ZeroDivisionError': 0.1756})
+ | ('9', {'AssertionError': 0.1485, 'AttributeError': 0.25, 'RecursionError': 0.0109, 'SyntaxError': 0.1719, 'TypeError': 0.0157, 'ValueError': 0.2162, 'ZeroDivisionError': 0.1985})
+ | ('0', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.25, 'SyntaxError': 0.1802, 'TypeError': 0.0394, 'ValueError': 0.1351, 'ZeroDivisionError': 0.084})
+Runtime: 53.505934953689575
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 0.625, 'SyntaxError': 0.4167, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.04})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.375, 'SyntaxError': 0.5833, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.96})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.1137, 'AttributeError': 0.0585, 'RecursionError': 0.0, 'SyntaxError': 0.3, 'TypeError': 0.0, 'ValueError': 0.68, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.2122, 'AttributeError': 0.1775, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0153, 'AttributeError': 0.0378, 'RecursionError': 0.0667, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.1983, 'AttributeError': 0.212, 'RecursionError': 0.0, 'SyntaxError': 0.1, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0609, 'AttributeError': 0.0736, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.32, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0633, 'AttributeError': 0.1446, 'RecursionError': 0.0, 'SyntaxError': 0.3, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 1.0})
+ | ('inc', {'AssertionError': 0.0183, 'AttributeError': 0.2009, 'RecursionError': 0.0667, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.1068, 'AttributeError': 0.0294, 'RecursionError': 0.8, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 0.2113, 'AttributeError': 0.0658, 'RecursionError': 0.0667, 'SyntaxError': 0.3, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.4, 'AttributeError': 0.4, 'RecursionError': 0.0, 'SyntaxError': 0.0789, 'TypeError': 0.125, 'ValueError': 1.0, 'ZeroDivisionError': 0.6939})
+ | ('<value>', {'AssertionError': 0.6, 'AttributeError': 0.6, 'RecursionError': 1.0, 'SyntaxError': 0.9211, 'TypeError': 0.875, 'ValueError': 0.0, 'ZeroDivisionError': 0.3061})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.88, 'RecursionError': 0.6364, 'SyntaxError': 0.4501, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.5265})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.12, 'RecursionError': 0.3636, 'SyntaxError': 0.5499, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.4735})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.4253, 'AttributeError': 0.6643, 'RecursionError': 0.6286, 'SyntaxError': 0.7185, 'TypeError': 0.7943, 'ValueError': 0.6663, 'ZeroDivisionError': 0.4})
+ | ('<digit>', {'AssertionError': 0.5747, 'AttributeError': 0.3357, 'RecursionError': 0.3714, 'SyntaxError': 0.2815, 'TypeError': 0.2057, 'ValueError': 0.3337, 'ZeroDivisionError': 0.6})
+<digit>:
+   ('1', {'AssertionError': 0.092, 'AttributeError': 0.2071, 'RecursionError': 0.1081, 'SyntaxError': 0.0444, 'TypeError': 0.1375, 'ValueError': 0.1023, 'ZeroDivisionError': 0.0583})
+ | ('2', {'AssertionError': 0.0575, 'AttributeError': 0.0857, 'RecursionError': 0.027, 'SyntaxError': 0.0148, 'TypeError': 0.0375, 'ValueError': 0.0858, 'ZeroDivisionError': 0.025})
+ | ('3', {'AssertionError': 0.0575, 'AttributeError': 0.1357, 'RecursionError': 0.2297, 'SyntaxError': 0.0148, 'TypeError': 0.0375, 'ValueError': 0.0974, 'ZeroDivisionError': 0.0})
+ | ('4', {'AssertionError': 0.069, 'AttributeError': 0.1857, 'RecursionError': 0.0, 'SyntaxError': 0.0593, 'TypeError': 0.1375, 'ValueError': 0.066, 'ZeroDivisionError': 0.1583})
+ | ('5', {'AssertionError': 0.0, 'AttributeError': 0.1071, 'RecursionError': 0.0541, 'SyntaxError': 0.0296, 'TypeError': 0.125, 'ValueError': 0.1386, 'ZeroDivisionError': 0.175})
+ | ('6', {'AssertionError': 0.023, 'AttributeError': 0.0714, 'RecursionError': 0.1757, 'SyntaxError': 0.0519, 'TypeError': 0.0125, 'ValueError': 0.1139, 'ZeroDivisionError': 0.1583})
+ | ('7', {'AssertionError': 0.1264, 'AttributeError': 0.0714, 'RecursionError': 0.2027, 'SyntaxError': 0.163, 'TypeError': 0.1, 'ValueError': 0.0396, 'ZeroDivisionError': 0.0917})
+ | ('8', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1081, 'SyntaxError': 0.1111, 'TypeError': 0.1875, 'ValueError': 0.1485, 'ZeroDivisionError': 0.0})
+ | ('9', {'AssertionError': 0.3333, 'AttributeError': 0.0857, 'RecursionError': 0.027, 'SyntaxError': 0.0222, 'TypeError': 0.1625, 'ValueError': 0.0611, 'ZeroDivisionError': 0.2083})
+ | ('0', {'AssertionError': 0.2414, 'AttributeError': 0.05, 'RecursionError': 0.0676, 'SyntaxError': 0.4889, 'TypeError': 0.0625, 'ValueError': 0.1469, 'ZeroDivisionError': 0.125})
+Runtime: 49.56302833557129
+Exceptiontypes: 6
+<start>:
+   ('<start1>', {'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AttributeError': 0.92, 'RecursionError': 1.0, 'SyntaxError': 0.8333, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.44})
+ | ('<term> / <term>', {'AttributeError': 0.08, 'RecursionError': 0.0, 'SyntaxError': 0.1667, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.56})
+<expr>:
+   ('<function>(<term>)', {'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AttributeError': 0.0, 'RecursionError': 0.12, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.68, 'ZeroDivisionError': 0.1818})
+ | ('tan', {'AttributeError': 0.0, 'RecursionError': 0.12, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.2727})
+ | ('cos', {'AttributeError': 0.0, 'RecursionError': 0.12, 'SyntaxError': 0.3, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AttributeError': 0.2609, 'RecursionError': 0.2, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.08, 'ZeroDivisionError': 0.0})
+ | ('log', {'AttributeError': 0.3913, 'RecursionError': 0.12, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.12, 'ZeroDivisionError': 0.0})
+ | ('len', {'AttributeError': 0.3478, 'RecursionError': 0.2, 'SyntaxError': 0.45, 'TypeError': 1.0, 'ValueError': 0.08, 'ZeroDivisionError': 0.2727})
+ | ('inc', {'AttributeError': 0.0, 'RecursionError': 0.08, 'SyntaxError': 0.15, 'TypeError': 0.0, 'ValueError': 0.04, 'ZeroDivisionError': 0.0909})
+ | ('factorial', {'AttributeError': 0.0, 'RecursionError': 0.04, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0909})
+ | ('is_int', {'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.1, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0909})
+<term>:
+   ('-<value>', {'AttributeError': 0.2593, 'RecursionError': 0.0, 'SyntaxError': 0.3929, 'TypeError': 0.0909, 'ValueError': 1.0, 'ZeroDivisionError': 0.7436})
+ | ('<value>', {'AttributeError': 0.7407, 'RecursionError': 1.0, 'SyntaxError': 0.6071, 'TypeError': 0.9091, 'ValueError': 0.0, 'ZeroDivisionError': 0.2564})
+<value>:
+   ('<integer>.<integer>', {'AttributeError': 0.4815, 'RecursionError': 0.2411, 'SyntaxError': 0.2143, 'TypeError': 0.906, 'ValueError': 0.263, 'ZeroDivisionError': 0.4875})
+ | ('<integer>', {'AttributeError': 0.5185, 'RecursionError': 0.7589, 'SyntaxError': 0.7857, 'TypeError': 0.094, 'ValueError': 0.737, 'ZeroDivisionError': 0.5125})
+<integer>:
+   ('<digit><integer>', {'AttributeError': 0.9089, 'RecursionError': 0.8289, 'SyntaxError': 0.6994, 'TypeError': 0.6197, 'ValueError': 0.3924, 'ZeroDivisionError': 0.274})
+ | ('<digit>', {'AttributeError': 0.0911, 'RecursionError': 0.1711, 'SyntaxError': 0.3006, 'TypeError': 0.3803, 'ValueError': 0.6076, 'ZeroDivisionError': 0.726})
+<digit>:
+   ('1', {'AttributeError': 0.2242, 'RecursionError': 0.1974, 'SyntaxError': 0.0114, 'TypeError': 0.2676, 'ValueError': 0.1139, 'ZeroDivisionError': 0.1918})
+ | ('2', {'AttributeError': 0.0782, 'RecursionError': 0.0351, 'SyntaxError': 0.0682, 'TypeError': 0.1831, 'ValueError': 0.0, 'ZeroDivisionError': 0.1096})
+ | ('3', {'AttributeError': 0.0265, 'RecursionError': 0.0702, 'SyntaxError': 0.1136, 'TypeError': 0.0, 'ValueError': 0.1266, 'ZeroDivisionError': 0.0274})
+ | ('4', {'AttributeError': 0.0471, 'RecursionError': 0.1974, 'SyntaxError': 0.0227, 'TypeError': 0.0, 'ValueError': 0.0127, 'ZeroDivisionError': 0.0685})
+ | ('5', {'AttributeError': 0.1987, 'RecursionError': 0.2412, 'SyntaxError': 0.1705, 'TypeError': 0.0845, 'ValueError': 0.0253, 'ZeroDivisionError': 0.0959})
+ | ('6', {'AttributeError': 0.0766, 'RecursionError': 0.0395, 'SyntaxError': 0.2614, 'TypeError': 0.0, 'ValueError': 0.1266, 'ZeroDivisionError': 0.1507})
+ | ('7', {'AttributeError': 0.0747, 'RecursionError': 0.0, 'SyntaxError': 0.0568, 'TypeError': 0.1831, 'ValueError': 0.1266, 'ZeroDivisionError': 0.0})
+ | ('8', {'AttributeError': 0.1125, 'RecursionError': 0.1053, 'SyntaxError': 0.2386, 'TypeError': 0.1408, 'ValueError': 0.038, 'ZeroDivisionError': 0.2329})
+ | ('9', {'AttributeError': 0.1429, 'RecursionError': 0.114, 'SyntaxError': 0.0341, 'TypeError': 0.1408, 'ValueError': 0.2278, 'ZeroDivisionError': 0.0959})
+ | ('0', {'AttributeError': 0.0187, 'RecursionError': 0.0, 'SyntaxError': 0.0227, 'TypeError': 0.0, 'ValueError': 0.2025, 'ZeroDivisionError': 0.0274})
+Runtime: 61.336233377456665
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.2174, 'AttributeError': 1.0, 'RecursionError': 1.0, 'SyntaxError': 0.7239, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.2417})
+ | ('<term> / <term>', {'AssertionError': 0.7826, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.2761, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.7583})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.2237, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.04, 'ValueError': 0.7826, 'ZeroDivisionError': 0.2})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0365, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.8, 'AttributeError': 0.196, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.2, 'AttributeError': 0.2021, 'RecursionError': 0.0, 'SyntaxError': 1.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.15})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0586, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.2174, 'ZeroDivisionError': 0.05})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0432, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.96, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 0.1946, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.35})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0422, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.05})
+ | ('is_int', {'AssertionError': 0.0, 'AttributeError': 0.003, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.2})
+<term>:
+   ('-<value>', {'AssertionError': 0.6585, 'AttributeError': 0.4348, 'RecursionError': 0.0, 'SyntaxError': 0.4667, 'TypeError': 0.12, 'ValueError': 0.5294, 'ZeroDivisionError': 0.0})
+ | ('<value>', {'AssertionError': 0.3415, 'AttributeError': 0.5652, 'RecursionError': 1.0, 'SyntaxError': 0.5333, 'TypeError': 0.88, 'ValueError': 0.4706, 'ZeroDivisionError': 1.0})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.2902, 'AttributeError': 0.9565, 'RecursionError': 0.7826, 'SyntaxError': 0.1556, 'TypeError': 0.96, 'ValueError': 0.5652, 'ZeroDivisionError': 0.5})
+ | ('<integer>', {'AssertionError': 0.7098, 'AttributeError': 0.0435, 'RecursionError': 0.2174, 'SyntaxError': 0.8444, 'TypeError': 0.04, 'ValueError': 0.4348, 'ZeroDivisionError': 0.5})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.0588, 'AttributeError': 0.2857, 'RecursionError': 0.481, 'SyntaxError': 0.5556, 'TypeError': 0.9319, 'ValueError': 0.561, 'ZeroDivisionError': 0.4658})
+ | ('<digit>', {'AssertionError': 0.9412, 'AttributeError': 0.7143, 'RecursionError': 0.519, 'SyntaxError': 0.4444, 'TypeError': 0.0681, 'ValueError': 0.439, 'ZeroDivisionError': 0.5342})
+<digit>:
+   ('1', {'AssertionError': 0.1373, 'AttributeError': 0.1429, 'RecursionError': 0.0859, 'SyntaxError': 0.0513, 'TypeError': 0.1095, 'ValueError': 0.0122, 'ZeroDivisionError': 0.0411})
+ | ('2', {'AssertionError': 0.0588, 'AttributeError': 0.0159, 'RecursionError': 0.1826, 'SyntaxError': 0.1453, 'TypeError': 0.0595, 'ValueError': 0.1951, 'ZeroDivisionError': 0.1096})
+ | ('3', {'AssertionError': 0.1569, 'AttributeError': 0.1746, 'RecursionError': 0.0699, 'SyntaxError': 0.094, 'TypeError': 0.1538, 'ValueError': 0.1463, 'ZeroDivisionError': 0.1507})
+ | ('4', {'AssertionError': 0.1176, 'AttributeError': 0.1587, 'RecursionError': 0.1692, 'SyntaxError': 0.0855, 'TypeError': 0.0312, 'ValueError': 0.1463, 'ZeroDivisionError': 0.137})
+ | ('5', {'AssertionError': 0.0784, 'AttributeError': 0.127, 'RecursionError': 0.0954, 'SyntaxError': 0.1282, 'TypeError': 0.1203, 'ValueError': 0.0732, 'ZeroDivisionError': 0.0548})
+ | ('6', {'AssertionError': 0.1765, 'AttributeError': 0.1111, 'RecursionError': 0.0035, 'SyntaxError': 0.0684, 'TypeError': 0.0284, 'ValueError': 0.1341, 'ZeroDivisionError': 0.0548})
+ | ('7', {'AssertionError': 0.0784, 'AttributeError': 0.0952, 'RecursionError': 0.186, 'SyntaxError': 0.1111, 'TypeError': 0.0437, 'ValueError': 0.1585, 'ZeroDivisionError': 0.2055})
+ | ('8', {'AssertionError': 0.0588, 'AttributeError': 0.0794, 'RecursionError': 0.0317, 'SyntaxError': 0.1026, 'TypeError': 0.1659, 'ValueError': 0.061, 'ZeroDivisionError': 0.137})
+ | ('9', {'AssertionError': 0.0588, 'AttributeError': 0.0317, 'RecursionError': 0.1049, 'SyntaxError': 0.0513, 'TypeError': 0.1918, 'ValueError': 0.0732, 'ZeroDivisionError': 0.1096})
+ | ('0', {'AssertionError': 0.0784, 'AttributeError': 0.0635, 'RecursionError': 0.071, 'SyntaxError': 0.1624, 'TypeError': 0.096, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+Runtime: 41.30520272254944
+Exceptiontypes: 6
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.362, 'AttributeError': 1.0, 'SyntaxError': 0.6, 'TypeError': 0.8265, 'ValueError': 1.0, 'ZeroDivisionError': 0.2077})
+ | ('<term> / <term>', {'AssertionError': 0.638, 'AttributeError': 0.0, 'SyntaxError': 0.4, 'TypeError': 0.1735, 'ValueError': 0.0, 'ZeroDivisionError': 0.7923})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.2, 'AttributeError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.3182, 'ZeroDivisionError': 0.2})
+ | ('tan', {'AssertionError': 0.04, 'AttributeError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0909, 'ZeroDivisionError': 0.2})
+ | ('cos', {'AssertionError': 0.24, 'AttributeError': 0.0, 'SyntaxError': 0.0667, 'TypeError': 0.0, 'ValueError': 0.0455, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.12, 'AttributeError': 0.0, 'SyntaxError': 0.4, 'TypeError': 0.0, 'ValueError': 0.0455, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.04, 'AttributeError': 0.0, 'SyntaxError': 0.0667, 'TypeError': 0.0, 'ValueError': 0.4545, 'ZeroDivisionError': 0.5})
+ | ('len', {'AssertionError': 0.04, 'AttributeError': 0.0, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0455, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'SyntaxError': 0.0667, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 0.32, 'AttributeError': 0.0, 'SyntaxError': 0.4, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.1})
+<term>:
+   ('-<value>', {'AssertionError': 0.44, 'AttributeError': 0.5418, 'SyntaxError': 0.5996, 'TypeError': 0.5263, 'ValueError': 0.6939, 'ZeroDivisionError': 0.55})
+ | ('<value>', {'AssertionError': 0.56, 'AttributeError': 0.4582, 'SyntaxError': 0.4004, 'TypeError': 0.4737, 'ValueError': 0.3061, 'ZeroDivisionError': 0.45})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.9091, 'SyntaxError': 0.3714, 'TypeError': 0.3684, 'ValueError': 0.4545, 'ZeroDivisionError': 0.95})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.0909, 'SyntaxError': 0.6286, 'TypeError': 0.6316, 'ValueError': 0.5455, 'ZeroDivisionError': 0.05})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3976, 'AttributeError': 0.3333, 'SyntaxError': 0.5385, 'TypeError': 0.2571, 'ValueError': 0.5897, 'ZeroDivisionError': 0.0})
+ | ('<digit>', {'AssertionError': 0.6024, 'AttributeError': 0.6667, 'SyntaxError': 0.4615, 'TypeError': 0.7429, 'ValueError': 0.4103, 'ZeroDivisionError': 1.0})
+<digit>:
+   ('1', {'AssertionError': 0.0361, 'AttributeError': 0.0317, 'SyntaxError': 0.1538, 'TypeError': 0.3429, 'ValueError': 0.0, 'ZeroDivisionError': 0.1923})
+ | ('2', {'AssertionError': 0.1084, 'AttributeError': 0.1587, 'SyntaxError': 0.0865, 'TypeError': 0.0, 'ValueError': 0.1923, 'ZeroDivisionError': 0.1538})
+ | ('3', {'AssertionError': 0.0964, 'AttributeError': 0.0635, 'SyntaxError': 0.0481, 'TypeError': 0.4286, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('4', {'AssertionError': 0.0602, 'AttributeError': 0.1429, 'SyntaxError': 0.0769, 'TypeError': 0.0286, 'ValueError': 0.2692, 'ZeroDivisionError': 0.1154})
+ | ('5', {'AssertionError': 0.0723, 'AttributeError': 0.2698, 'SyntaxError': 0.0288, 'TypeError': 0.0571, 'ValueError': 0.0, 'ZeroDivisionError': 0.1154})
+ | ('6', {'AssertionError': 0.0361, 'AttributeError': 0.0, 'SyntaxError': 0.0481, 'TypeError': 0.0286, 'ValueError': 0.0256, 'ZeroDivisionError': 0.0641})
+ | ('7', {'AssertionError': 0.2169, 'AttributeError': 0.0952, 'SyntaxError': 0.1154, 'TypeError': 0.1143, 'ValueError': 0.0, 'ZeroDivisionError': 0.0641})
+ | ('8', {'AssertionError': 0.1687, 'AttributeError': 0.0317, 'SyntaxError': 0.1154, 'TypeError': 0.0, 'ValueError': 0.1667, 'ZeroDivisionError': 0.2051})
+ | ('9', {'AssertionError': 0.0482, 'AttributeError': 0.0, 'SyntaxError': 0.1731, 'TypeError': 0.0, 'ValueError': 0.2308, 'ZeroDivisionError': 0.0641})
+ | ('0', {'AssertionError': 0.1566, 'AttributeError': 0.2063, 'SyntaxError': 0.1538, 'TypeError': 0.0, 'ValueError': 0.1154, 'ZeroDivisionError': 0.0256})
+Runtime: 64.537752866745
+Exceptiontypes: 6
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 0.1305, 'RecursionError': 0.2083, 'SyntaxError': 0.4167, 'TypeError': 1.0, 'ValueError': 0.4067})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.8695, 'RecursionError': 0.7917, 'SyntaxError': 0.5833, 'TypeError': 0.0, 'ValueError': 0.5933})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 1.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 1.0, 'TypeError': 0.0, 'ValueError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.7895, 'AttributeError': 0.3256, 'RecursionError': 0.9302, 'SyntaxError': 0.5526, 'TypeError': 0.4806, 'ValueError': 1.0})
+ | ('<value>', {'AssertionError': 0.2105, 'AttributeError': 0.6744, 'RecursionError': 0.0698, 'SyntaxError': 0.4474, 'TypeError': 0.5194, 'ValueError': 0.0})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.4186, 'RecursionError': 0.4681, 'SyntaxError': 0.2895, 'TypeError': 0.6667, 'ValueError': 0.5714})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.5814, 'RecursionError': 0.5319, 'SyntaxError': 0.7105, 'TypeError': 0.3333, 'ValueError': 0.4286})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.6296, 'AttributeError': 0.6453, 'RecursionError': 0.2609, 'SyntaxError': 0.608, 'TypeError': 0.2308, 'ValueError': 0.708})
+ | ('<digit>', {'AssertionError': 0.3704, 'AttributeError': 0.3547, 'RecursionError': 0.7391, 'SyntaxError': 0.392, 'TypeError': 0.7692, 'ValueError': 0.292})
+<digit>:
+   ('1', {'AssertionError': 0.0519, 'AttributeError': 0.2151, 'RecursionError': 0.0435, 'SyntaxError': 0.0817, 'TypeError': 0.0256, 'ValueError': 0.0})
+ | ('2', {'AssertionError': 0.2296, 'AttributeError': 0.0698, 'RecursionError': 0.0, 'SyntaxError': 0.0837, 'TypeError': 0.0769, 'ValueError': 0.0796})
+ | ('3', {'AssertionError': 0.0444, 'AttributeError': 0.0698, 'RecursionError': 0.2283, 'SyntaxError': 0.1029, 'TypeError': 0.0, 'ValueError': 0.2655})
+ | ('4', {'AssertionError': 0.0667, 'AttributeError': 0.1744, 'RecursionError': 0.2717, 'SyntaxError': 0.1266, 'TypeError': 0.2821, 'ValueError': 0.2212})
+ | ('5', {'AssertionError': 0.0741, 'AttributeError': 0.0814, 'RecursionError': 0.0, 'SyntaxError': 0.1314, 'TypeError': 0.0769, 'ValueError': 0.0088})
+ | ('6', {'AssertionError': 0.1037, 'AttributeError': 0.0756, 'RecursionError': 0.2717, 'SyntaxError': 0.1245, 'TypeError': 0.0256, 'ValueError': 0.2212})
+ | ('7', {'AssertionError': 0.1111, 'AttributeError': 0.0058, 'RecursionError': 0.0326, 'SyntaxError': 0.0494, 'TypeError': 0.0513, 'ValueError': 0.0})
+ | ('8', {'AssertionError': 0.163, 'AttributeError': 0.1686, 'RecursionError': 0.087, 'SyntaxError': 0.1583, 'TypeError': 0.3077, 'ValueError': 0.0})
+ | ('9', {'AssertionError': 0.0963, 'AttributeError': 0.0174, 'RecursionError': 0.0217, 'SyntaxError': 0.0788, 'TypeError': 0.0256, 'ValueError': 0.0354})
+ | ('0', {'AssertionError': 0.0593, 'AttributeError': 0.1221, 'RecursionError': 0.0435, 'SyntaxError': 0.0627, 'TypeError': 0.1282, 'ValueError': 0.1681})
+Runtime: 123.81272649765015
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 0.72, 'SyntaxError': 0.24, 'TypeError': 1.0, 'ValueError': 0.92, 'ZeroDivisionError': 0.44})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.28, 'SyntaxError': 0.76, 'TypeError': 0.0, 'ValueError': 0.08, 'ZeroDivisionError': 0.56})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0435, 'RecursionError': 0.0, 'SyntaxError': 0.6667, 'TypeError': 0.0, 'ValueError': 0.5217, 'ZeroDivisionError': 0.3636})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.3333, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.2727})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.3043, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.2609, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.4783, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.1304, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.9583, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 0.1739, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.3636})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0435, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.0417, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0435, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.0667, 'AttributeError': 0.4783, 'RecursionError': 0.0, 'SyntaxError': 0.7727, 'TypeError': 0.2917, 'ValueError': 1.0, 'ZeroDivisionError': 0.6923})
+ | ('<value>', {'AssertionError': 0.9333, 'AttributeError': 0.5217, 'RecursionError': 1.0, 'SyntaxError': 0.2273, 'TypeError': 0.7083, 'ValueError': 0.0, 'ZeroDivisionError': 0.3077})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.3913, 'RecursionError': 0.5987, 'SyntaxError': 0.2401, 'TypeError': 0.75, 'ValueError': 0.7272, 'ZeroDivisionError': 0.4103})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.6087, 'RecursionError': 0.4013, 'SyntaxError': 0.7599, 'TypeError': 0.25, 'ValueError': 0.2728, 'ZeroDivisionError': 0.5897})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3617, 'AttributeError': 0.0662, 'RecursionError': 0.6538, 'SyntaxError': 0.2469, 'TypeError': 0.6818, 'ValueError': 0.4906, 'ZeroDivisionError': 0.3038})
+ | ('<digit>', {'AssertionError': 0.6383, 'AttributeError': 0.9338, 'RecursionError': 0.3462, 'SyntaxError': 0.7531, 'TypeError': 0.3182, 'ValueError': 0.5094, 'ZeroDivisionError': 0.6962})
+<digit>:
+   ('1', {'AssertionError': 0.058, 'AttributeError': 0.2353, 'RecursionError': 0.1282, 'SyntaxError': 0.037, 'TypeError': 0.1101, 'ValueError': 0.066, 'ZeroDivisionError': 0.0343})
+ | ('2', {'AssertionError': 0.0091, 'AttributeError': 0.0, 'RecursionError': 0.0641, 'SyntaxError': 0.1975, 'TypeError': 0.1091, 'ValueError': 0.0, 'ZeroDivisionError': 0.0501})
+ | ('3', {'AssertionError': 0.1446, 'AttributeError': 0.0392, 'RecursionError': 0.1795, 'SyntaxError': 0.0741, 'TypeError': 0.0608, 'ValueError': 0.0, 'ZeroDivisionError': 0.0224})
+ | ('4', {'AssertionError': 0.1785, 'AttributeError': 0.3137, 'RecursionError': 0.0513, 'SyntaxError': 0.0247, 'TypeError': 0.1584, 'ValueError': 0.1792, 'ZeroDivisionError': 0.0279})
+ | ('5', {'AssertionError': 0.1845, 'AttributeError': 0.0392, 'RecursionError': 0.0256, 'SyntaxError': 0.0741, 'TypeError': 0.1114, 'ValueError': 0.1415, 'ZeroDivisionError': 0.1947})
+ | ('6', {'AssertionError': 0.0096, 'AttributeError': 0.0784, 'RecursionError': 0.0833, 'SyntaxError': 0.037, 'TypeError': 0.1518, 'ValueError': 0.1226, 'ZeroDivisionError': 0.1258})
+ | ('7', {'AssertionError': 0.0345, 'AttributeError': 0.0196, 'RecursionError': 0.359, 'SyntaxError': 0.0988, 'TypeError': 0.1235, 'ValueError': 0.1887, 'ZeroDivisionError': 0.1032})
+ | ('8', {'AssertionError': 0.0994, 'AttributeError': 0.1569, 'RecursionError': 0.1026, 'SyntaxError': 0.284, 'TypeError': 0.1163, 'ValueError': 0.1415, 'ZeroDivisionError': 0.1611})
+ | ('9', {'AssertionError': 0.2, 'AttributeError': 0.1176, 'RecursionError': 0.0, 'SyntaxError': 0.1358, 'TypeError': 0.0302, 'ValueError': 0.0566, 'ZeroDivisionError': 0.0099})
+ | ('0', {'AssertionError': 0.0817, 'AttributeError': 0.0, 'RecursionError': 0.0064, 'SyntaxError': 0.037, 'TypeError': 0.0286, 'ValueError': 0.1038, 'ZeroDivisionError': 0.2706})
+Runtime: 75.27676129341125
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.9524, 'AttributeError': 0.3244, 'RecursionError': 0.44, 'SyntaxError': 0.36, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.3579})
+ | ('<term> / <term>', {'AssertionError': 0.0476, 'AttributeError': 0.6756, 'RecursionError': 0.56, 'SyntaxError': 0.64, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.6421})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.4545, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.32, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.1304, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.1739, 'RecursionError': 0.4545, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0435, 'RecursionError': 0.0, 'SyntaxError': 1.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0909, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.68, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 0.5652, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.087, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 1.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.9398, 'AttributeError': 0.8696, 'RecursionError': 0.1282, 'SyntaxError': 0.3795, 'TypeError': 0.32, 'ValueError': 0.1328, 'ZeroDivisionError': 0.8261})
+ | ('<value>', {'AssertionError': 0.0602, 'AttributeError': 0.1304, 'RecursionError': 0.8718, 'SyntaxError': 0.6205, 'TypeError': 0.68, 'ValueError': 0.8672, 'ZeroDivisionError': 0.1739})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.8182, 'AttributeError': 0.2609, 'RecursionError': 0.0187, 'SyntaxError': 0.3659, 'TypeError': 0.8654, 'ValueError': 0.88, 'ZeroDivisionError': 0.2826})
+ | ('<integer>', {'AssertionError': 0.1818, 'AttributeError': 0.7391, 'RecursionError': 0.9813, 'SyntaxError': 0.6341, 'TypeError': 0.1346, 'ValueError': 0.12, 'ZeroDivisionError': 0.7174})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.2157, 'AttributeError': 0.5167, 'RecursionError': 0.6412, 'SyntaxError': 0.5447, 'TypeError': 0.8103, 'ValueError': 0.9593, 'ZeroDivisionError': 0.1061})
+ | ('<digit>', {'AssertionError': 0.7843, 'AttributeError': 0.4833, 'RecursionError': 0.3588, 'SyntaxError': 0.4553, 'TypeError': 0.1897, 'ValueError': 0.0407, 'ZeroDivisionError': 0.8939})
+<digit>:
+   ('1', {'AssertionError': 0.1176, 'AttributeError': 0.0, 'RecursionError': 0.0882, 'SyntaxError': 0.065, 'TypeError': 0.0, 'ValueError': 0.1091, 'ZeroDivisionError': 0.1515})
+ | ('2', {'AssertionError': 0.098, 'AttributeError': 0.0, 'RecursionError': 0.0412, 'SyntaxError': 0.0569, 'TypeError': 0.1839, 'ValueError': 0.1887, 'ZeroDivisionError': 0.0})
+ | ('3', {'AssertionError': 0.0784, 'AttributeError': 0.1667, 'RecursionError': 0.1412, 'SyntaxError': 0.0325, 'TypeError': 0.1437, 'ValueError': 0.0234, 'ZeroDivisionError': 0.0152})
+ | ('4', {'AssertionError': 0.0588, 'AttributeError': 0.1333, 'RecursionError': 0.1118, 'SyntaxError': 0.1057, 'TypeError': 0.0, 'ValueError': 0.2753, 'ZeroDivisionError': 0.0152})
+ | ('5', {'AssertionError': 0.1176, 'AttributeError': 0.0833, 'RecursionError': 0.0, 'SyntaxError': 0.0081, 'TypeError': 0.1782, 'ValueError': 0.0121, 'ZeroDivisionError': 0.1667})
+ | ('6', {'AssertionError': 0.1569, 'AttributeError': 0.1833, 'RecursionError': 0.2235, 'SyntaxError': 0.1382, 'TypeError': 0.1494, 'ValueError': 0.3385, 'ZeroDivisionError': 0.0455})
+ | ('7', {'AssertionError': 0.0, 'AttributeError': 0.1667, 'RecursionError': 0.1176, 'SyntaxError': 0.1301, 'TypeError': 0.2069, 'ValueError': 0.0234, 'ZeroDivisionError': 0.0152})
+ | ('8', {'AssertionError': 0.0588, 'AttributeError': 0.1833, 'RecursionError': 0.2294, 'SyntaxError': 0.1463, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('9', {'AssertionError': 0.1569, 'AttributeError': 0.0833, 'RecursionError': 0.0471, 'SyntaxError': 0.0407, 'TypeError': 0.1379, 'ValueError': 0.0113, 'ZeroDivisionError': 0.0758})
+ | ('0', {'AssertionError': 0.1569, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.2764, 'TypeError': 0.0, 'ValueError': 0.0182, 'ZeroDivisionError': 0.5152})
+Runtime: 62.577725410461426
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.5029, 'AttributeError': 1.0, 'RecursionError': 0.64, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.32})
+ | ('<term> / <term>', {'AssertionError': 0.4971, 'AttributeError': 0.0, 'RecursionError': 0.36, 'SyntaxError': 1.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.68})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.12, 'ValueError': 0.0981, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.16, 'ValueError': 0.0881, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.24, 'ValueError': 0.1904, 'ZeroDivisionError': 0.125})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.04, 'ValueError': 0.0221, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.1927, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.0137, 'ZeroDivisionError': 0.75})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.2, 'ValueError': 0.1518, 'ZeroDivisionError': 0.125})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 1.0, 'SyntaxError': None, 'TypeError': 0.04, 'ValueError': 0.0351, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.2, 'ValueError': 0.2079, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.3659, 'AttributeError': 0.44, 'RecursionError': 0.4834, 'SyntaxError': 0.82, 'TypeError': 0.2821, 'ValueError': 1.0, 'ZeroDivisionError': 0.0238})
+ | ('<value>', {'AssertionError': 0.6341, 'AttributeError': 0.56, 'RecursionError': 0.5166, 'SyntaxError': 0.18, 'TypeError': 0.7179, 'ValueError': 0.0, 'ZeroDivisionError': 0.9762})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.5122, 'AttributeError': 1.0, 'RecursionError': 0.6176, 'SyntaxError': 0.2343, 'TypeError': 0.96, 'ValueError': 0.68, 'ZeroDivisionError': 0.3835})
+ | ('<integer>', {'AssertionError': 0.4878, 'AttributeError': 0.0, 'RecursionError': 0.3824, 'SyntaxError': 0.7657, 'TypeError': 0.04, 'ValueError': 0.32, 'ZeroDivisionError': 0.6165})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.9066, 'AttributeError': 0.6241, 'RecursionError': 0.2143, 'SyntaxError': 0.4463, 'TypeError': 0.5625, 'ValueError': 0.9258, 'ZeroDivisionError': 0.5535})
+ | ('<digit>', {'AssertionError': 0.0934, 'AttributeError': 0.3759, 'RecursionError': 0.7857, 'SyntaxError': 0.5537, 'TypeError': 0.4375, 'ValueError': 0.0742, 'ZeroDivisionError': 0.4465})
+<digit>:
+   ('1', {'AssertionError': 0.1551, 'AttributeError': 0.1759, 'RecursionError': 0.0143, 'SyntaxError': 0.0331, 'TypeError': 0.0446, 'ValueError': 0.1837, 'ZeroDivisionError': 0.2327})
+ | ('2', {'AssertionError': 0.1476, 'AttributeError': 0.0597, 'RecursionError': 0.1, 'SyntaxError': 0.0, 'TypeError': 0.1339, 'ValueError': 0.2615, 'ZeroDivisionError': 0.1384})
+ | ('3', {'AssertionError': 0.0527, 'AttributeError': 0.0938, 'RecursionError': 0.0714, 'SyntaxError': 0.1157, 'TypeError': 0.125, 'ValueError': 0.0035, 'ZeroDivisionError': 0.0314})
+ | ('4', {'AssertionError': 0.0392, 'AttributeError': 0.0407, 'RecursionError': 0.1143, 'SyntaxError': 0.1818, 'TypeError': 0.0536, 'ValueError': 0.1643, 'ZeroDivisionError': 0.0818})
+ | ('5', {'AssertionError': 0.1145, 'AttributeError': 0.038, 'RecursionError': 0.2, 'SyntaxError': 0.0, 'TypeError': 0.1161, 'ValueError': 0.0512, 'ZeroDivisionError': 0.0189})
+ | ('6', {'AssertionError': 0.0045, 'AttributeError': 0.0088, 'RecursionError': 0.0429, 'SyntaxError': 0.1983, 'TypeError': 0.2054, 'ValueError': 0.0018, 'ZeroDivisionError': 0.1572})
+ | ('7', {'AssertionError': 0.1024, 'AttributeError': 0.2432, 'RecursionError': 0.1714, 'SyntaxError': 0.2231, 'TypeError': 0.0357, 'ValueError': 0.1714, 'ZeroDivisionError': 0.1635})
+ | ('8', {'AssertionError': 0.1325, 'AttributeError': 0.216, 'RecursionError': 0.0571, 'SyntaxError': 0.0, 'TypeError': 0.1161, 'ValueError': 0.0212, 'ZeroDivisionError': 0.1384})
+ | ('9', {'AssertionError': 0.0798, 'AttributeError': 0.0554, 'RecursionError': 0.1143, 'SyntaxError': 0.0413, 'TypeError': 0.0893, 'ValueError': 0.0795, 'ZeroDivisionError': 0.0})
+ | ('0', {'AssertionError': 0.1717, 'AttributeError': 0.0684, 'RecursionError': 0.1143, 'SyntaxError': 0.2066, 'TypeError': 0.0804, 'ValueError': 0.0618, 'ZeroDivisionError': 0.0377})
+Runtime: 50.709911823272705
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.3634, 'AttributeError': 1.0, 'RecursionError': 0.1607, 'SyntaxError': 0.8927, 'TypeError': 1.0, 'ValueError': 0.5309, 'ZeroDivisionError': 0.2})
+ | ('<term> / <term>', {'AssertionError': 0.6366, 'AttributeError': 0.0, 'RecursionError': 0.8393, 'SyntaxError': 0.1073, 'TypeError': 0.0, 'ValueError': 0.4691, 'ZeroDivisionError': 0.8})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.2727, 'ZeroDivisionError': 0.6})
+ | ('tan', {'AssertionError': 0.1667, 'AttributeError': 0.16, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 0.0, 'SyntaxError': 0.3333, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.4})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.12, 'RecursionError': 0.0, 'SyntaxError': 0.5, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.1667, 'AttributeError': 0.16, 'RecursionError': 0.0, 'SyntaxError': 0.1667, 'TypeError': 0.0, 'ValueError': 0.7273, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.6667, 'AttributeError': 0.4, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.12, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.5682, 'AttributeError': 0.52, 'RecursionError': 0.0, 'SyntaxError': 0.9091, 'TypeError': 0.8261, 'ValueError': 1.0, 'ZeroDivisionError': 0.6667})
+ | ('<value>', {'AssertionError': 0.4318, 'AttributeError': 0.48, 'RecursionError': 1.0, 'SyntaxError': 0.0909, 'TypeError': 0.1739, 'ValueError': 0.0, 'ZeroDivisionError': 0.3333})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.4091, 'AttributeError': 0.2501, 'RecursionError': 0.5714, 'SyntaxError': 0.2273, 'TypeError': 0.9565, 'ValueError': 0.5909, 'ZeroDivisionError': 0.0222})
+ | ('<integer>', {'AssertionError': 0.5909, 'AttributeError': 0.7499, 'RecursionError': 0.4286, 'SyntaxError': 0.7727, 'TypeError': 0.0435, 'ValueError': 0.4091, 'ZeroDivisionError': 0.9778})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3861, 'AttributeError': 0.6757, 'RecursionError': 0.614, 'SyntaxError': 0.5462, 'TypeError': 0.3478, 'ValueError': 0.6237, 'ZeroDivisionError': 0.6561})
+ | ('<digit>', {'AssertionError': 0.6139, 'AttributeError': 0.3243, 'RecursionError': 0.386, 'SyntaxError': 0.4538, 'TypeError': 0.6522, 'ValueError': 0.3763, 'ZeroDivisionError': 0.3439})
+<digit>:
+   ('1', {'AssertionError': 0.0297, 'AttributeError': 0.1081, 'RecursionError': 0.0351, 'SyntaxError': 0.1513, 'TypeError': 0.1064, 'ValueError': 0.0, 'ZeroDivisionError': 0.1439})
+ | ('2', {'AssertionError': 0.0891, 'AttributeError': 0.0541, 'RecursionError': 0.0526, 'SyntaxError': 0.0588, 'TypeError': 0.0471, 'ValueError': 0.1075, 'ZeroDivisionError': 0.0863})
+ | ('3', {'AssertionError': 0.1188, 'AttributeError': 0.0991, 'RecursionError': 0.2105, 'SyntaxError': 0.1345, 'TypeError': 0.1561, 'ValueError': 0.0645, 'ZeroDivisionError': 0.0288})
+ | ('4', {'AssertionError': 0.1386, 'AttributeError': 0.0, 'RecursionError': 0.1579, 'SyntaxError': 0.1513, 'TypeError': 0.1319, 'ValueError': 0.1183, 'ZeroDivisionError': 0.0791})
+ | ('5', {'AssertionError': 0.0, 'AttributeError': 0.0631, 'RecursionError': 0.0526, 'SyntaxError': 0.1513, 'TypeError': 0.0407, 'ValueError': 0.0, 'ZeroDivisionError': 0.1439})
+ | ('6', {'AssertionError': 0.2178, 'AttributeError': 0.0, 'RecursionError': 0.0789, 'SyntaxError': 0.0672, 'TypeError': 0.0375, 'ValueError': 0.1613, 'ZeroDivisionError': 0.1295})
+ | ('7', {'AssertionError': 0.1386, 'AttributeError': 0.0, 'RecursionError': 0.0965, 'SyntaxError': 0.042, 'TypeError': 0.1574, 'ValueError': 0.172, 'ZeroDivisionError': 0.1727})
+ | ('8', {'AssertionError': 0.0, 'AttributeError': 0.1802, 'RecursionError': 0.2368, 'SyntaxError': 0.1429, 'TypeError': 0.1184, 'ValueError': 0.2581, 'ZeroDivisionError': 0.1799})
+ | ('9', {'AssertionError': 0.1386, 'AttributeError': 0.1171, 'RecursionError': 0.0526, 'SyntaxError': 0.0, 'TypeError': 0.0606, 'ValueError': 0.1183, 'ZeroDivisionError': 0.0072})
+ | ('0', {'AssertionError': 0.1287, 'AttributeError': 0.3784, 'RecursionError': 0.0263, 'SyntaxError': 0.1008, 'TypeError': 0.144, 'ValueError': 0.0, 'ZeroDivisionError': 0.0288})
+Runtime: 42.14664363861084
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.84, 'AttributeError': 1.0, 'RecursionError': 0.4088, 'SyntaxError': 0.9168, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.3449})
+ | ('<term> / <term>', {'AssertionError': 0.16, 'AttributeError': 0.0, 'RecursionError': 0.5912, 'SyntaxError': 0.0832, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.6551})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0812, 'RecursionError': 0.0, 'SyntaxError': 0.1, 'TypeError': 0.2917, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0476, 'AttributeError': 0.2187, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.1667})
+ | ('cos', {'AssertionError': 0.1905, 'AttributeError': 0.1102, 'RecursionError': 0.0, 'SyntaxError': 0.5, 'TypeError': 0.0417, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.1326, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.125, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0952, 'AttributeError': 0.1706, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.125, 'ValueError': 1.0, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0476, 'AttributeError': 0.0219, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.2083, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0952, 'AttributeError': 0.1726, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0833, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0068, 'RecursionError': 1.0, 'SyntaxError': 0.4, 'TypeError': 0.0417, 'ValueError': 0.0, 'ZeroDivisionError': 0.8333})
+ | ('is_int', {'AssertionError': 0.5238, 'AttributeError': 0.0852, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0833, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.4138, 'AttributeError': 0.2083, 'RecursionError': 0.04, 'SyntaxError': 0.2333, 'TypeError': 0.1414, 'ValueError': 0.92, 'ZeroDivisionError': 0.3846})
+ | ('<value>', {'AssertionError': 0.5862, 'AttributeError': 0.7917, 'RecursionError': 0.96, 'SyntaxError': 0.7667, 'TypeError': 0.8586, 'ValueError': 0.08, 'ZeroDivisionError': 0.6154})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.9167, 'RecursionError': 0.68, 'SyntaxError': 0.3333, 'TypeError': 0.9583, 'ValueError': 0.8142, 'ZeroDivisionError': 0.5385})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.0833, 'RecursionError': 0.32, 'SyntaxError': 0.6667, 'TypeError': 0.0417, 'ValueError': 0.1858, 'ZeroDivisionError': 0.4615})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3895, 'AttributeError': 0.2698, 'RecursionError': 0.475, 'SyntaxError': 0.2453, 'TypeError': 0.1455, 'ValueError': 0.5238, 'ZeroDivisionError': 0.1667})
+ | ('<digit>', {'AssertionError': 0.6105, 'AttributeError': 0.7302, 'RecursionError': 0.525, 'SyntaxError': 0.7547, 'TypeError': 0.8545, 'ValueError': 0.4762, 'ZeroDivisionError': 0.8333})
+<digit>:
+   ('1', {'AssertionError': 0.1307, 'AttributeError': 0.1429, 'RecursionError': 0.075, 'SyntaxError': 0.0189, 'TypeError': 0.2182, 'ValueError': 0.1048, 'ZeroDivisionError': 0.1875})
+ | ('2', {'AssertionError': 0.0473, 'AttributeError': 0.0635, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0952, 'ZeroDivisionError': 0.0625})
+ | ('3', {'AssertionError': 0.1038, 'AttributeError': 0.0317, 'RecursionError': 0.175, 'SyntaxError': 0.0377, 'TypeError': 0.0727, 'ValueError': 0.0095, 'ZeroDivisionError': 0.125})
+ | ('4', {'AssertionError': 0.0979, 'AttributeError': 0.1905, 'RecursionError': 0.0375, 'SyntaxError': 0.0377, 'TypeError': 0.0909, 'ValueError': 0.0381, 'ZeroDivisionError': 0.0625})
+ | ('5', {'AssertionError': 0.0709, 'AttributeError': 0.0635, 'RecursionError': 0.1375, 'SyntaxError': 0.0377, 'TypeError': 0.1455, 'ValueError': 0.1714, 'ZeroDivisionError': 0.0417})
+ | ('6', {'AssertionError': 0.1057, 'AttributeError': 0.0952, 'RecursionError': 0.15, 'SyntaxError': 0.3585, 'TypeError': 0.2, 'ValueError': 0.1905, 'ZeroDivisionError': 0.0})
+ | ('7', {'AssertionError': 0.1026, 'AttributeError': 0.1905, 'RecursionError': 0.1, 'SyntaxError': 0.0755, 'TypeError': 0.0364, 'ValueError': 0.2476, 'ZeroDivisionError': 0.1458})
+ | ('8', {'AssertionError': 0.1492, 'AttributeError': 0.1111, 'RecursionError': 0.125, 'SyntaxError': 0.0943, 'TypeError': 0.2182, 'ValueError': 0.0571, 'ZeroDivisionError': 0.0625})
+ | ('9', {'AssertionError': 0.1312, 'AttributeError': 0.0635, 'RecursionError': 0.15, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0381, 'ZeroDivisionError': 0.0})
+ | ('0', {'AssertionError': 0.0606, 'AttributeError': 0.0476, 'RecursionError': 0.05, 'SyntaxError': 0.3396, 'TypeError': 0.0182, 'ValueError': 0.0476, 'ZeroDivisionError': 0.3125})Runtime: 97.27256226539612
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 0.68, 'RecursionError': 0.6621, 'SyntaxError': 0.52, 'TypeError': 1.0, 'ValueError': 0.9545, 'ZeroDivisionError': 0.52})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.32, 'RecursionError': 0.3379, 'SyntaxError': 0.48, 'TypeError': 0.0, 'ValueError': 0.0455, 'ZeroDivisionError': 0.48})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.1176, 'RecursionError': 0.12, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0588, 'RecursionError': 0.08, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0588, 'RecursionError': 0.0, 'SyntaxError': 0.7692, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0769})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.1176, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.5385})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.1176, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0588, 'RecursionError': 0.04, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.1538})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 0.4118, 'RecursionError': 0.0, 'SyntaxError': 0.0769, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0769})
+ | ('factorial', {'AssertionError': 0.04, 'AttributeError': 0.0, 'RecursionError': 0.76, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0769})
+ | ('is_int', {'AssertionError': 0.96, 'AttributeError': 0.0588, 'RecursionError': 0.0, 'SyntaxError': 0.1538, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0769})
+<term>:
+   ('-<value>', {'AssertionError': 0.84, 'AttributeError': 0.3636, 'RecursionError': 0.32, 'SyntaxError': 0.1892, 'TypeError': 0.2375, 'ValueError': 1.0, 'ZeroDivisionError': 0.5405})
+ | ('<value>', {'AssertionError': 0.16, 'AttributeError': 0.6364, 'RecursionError': 0.68, 'SyntaxError': 0.8108, 'TypeError': 0.7625, 'ValueError': 0.0, 'ZeroDivisionError': 0.4595})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.3557, 'AttributeError': 0.2727, 'RecursionError': 0.64, 'SyntaxError': 0.9265, 'TypeError': 0.68, 'ValueError': 0.4348, 'ZeroDivisionError': 1.0})
+ | ('<integer>', {'AssertionError': 0.6443, 'AttributeError': 0.7273, 'RecursionError': 0.36, 'SyntaxError': 0.0735, 'TypeError': 0.32, 'ValueError': 0.5652, 'ZeroDivisionError': 0.0})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.5798, 'AttributeError': 0.2737, 'RecursionError': 0.961, 'SyntaxError': 0.5612, 'TypeError': 0.8636, 'ValueError': 0.459, 'ZeroDivisionError': 0.4897})
+ | ('<digit>', {'AssertionError': 0.4202, 'AttributeError': 0.7263, 'RecursionError': 0.039, 'SyntaxError': 0.4388, 'TypeError': 0.1364, 'ValueError': 0.541, 'ZeroDivisionError': 0.5103})
+<digit>:
+   ('1', {'AssertionError': 0.2689, 'AttributeError': 0.0465, 'RecursionError': 0.1333, 'SyntaxError': 0.1633, 'TypeError': 0.0, 'ValueError': 0.0174, 'ZeroDivisionError': 0.1153})
+ | ('2', {'AssertionError': 0.0756, 'AttributeError': 0.2093, 'RecursionError': 0.0905, 'SyntaxError': 0.0204, 'TypeError': 0.3149, 'ValueError': 0.0238, 'ZeroDivisionError': 0.0405})
+ | ('3', {'AssertionError': 0.2017, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0816, 'TypeError': 0.237, 'ValueError': 0.0314, 'ZeroDivisionError': 0.1693})
+ | ('4', {'AssertionError': 0.0, 'AttributeError': 0.1279, 'RecursionError': 0.1171, 'SyntaxError': 0.0, 'TypeError': 0.0877, 'ValueError': 0.1609, 'ZeroDivisionError': 0.1354})
+ | ('5', {'AssertionError': 0.1345, 'AttributeError': 0.0581, 'RecursionError': 0.2476, 'SyntaxError': 0.0714, 'TypeError': 0.0, 'ValueError': 0.0384, 'ZeroDivisionError': 0.0498})
+ | ('6', {'AssertionError': 0.1345, 'AttributeError': 0.2093, 'RecursionError': 0.1257, 'SyntaxError': 0.0918, 'TypeError': 0.1006, 'ValueError': 0.2558, 'ZeroDivisionError': 0.1457})
+ | ('7', {'AssertionError': 0.1261, 'AttributeError': 0.1279, 'RecursionError': 0.0448, 'SyntaxError': 0.1837, 'TypeError': 0.039, 'ValueError': 0.054, 'ZeroDivisionError': 0.1515})
+ | ('8', {'AssertionError': 0.0, 'AttributeError': 0.0233, 'RecursionError': 0.0819, 'SyntaxError': 0.1224, 'TypeError': 0.0844, 'ValueError': 0.1036, 'ZeroDivisionError': 0.0916})
+ | ('9', {'AssertionError': 0.0, 'AttributeError': 0.1977, 'RecursionError': 0.0695, 'SyntaxError': 0.1224, 'TypeError': 0.1104, 'ValueError': 0.1129, 'ZeroDivisionError': 0.0933})
+ | ('0', {'AssertionError': 0.0588, 'AttributeError': 0.0, 'RecursionError': 0.0895, 'SyntaxError': 0.1429, 'TypeError': 0.026, 'ValueError': 0.2019, 'ZeroDivisionError': 0.0076})
+Runtime: 138.46917486190796
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 0.4476, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.28, 'ValueError': 0.9048, 'ZeroDivisionError': 0.52})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.5524, 'RecursionError': 0.0, 'SyntaxError': 1.0, 'TypeError': 0.72, 'ValueError': 0.0952, 'ZeroDivisionError': 0.48})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.2277, 'SyntaxError': None, 'TypeError': 0.2036, 'ValueError': 0.2632, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1863, 'SyntaxError': None, 'TypeError': 0.1944, 'ValueError': 0.0, 'ZeroDivisionError': 0.4615})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0075, 'SyntaxError': None, 'TypeError': 0.031, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.012, 'SyntaxError': None, 'TypeError': 0.1095, 'ValueError': 0.0526, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1016, 'SyntaxError': None, 'TypeError': 0.1034, 'ValueError': 0.4737, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1661, 'SyntaxError': None, 'TypeError': 0.1953, 'ValueError': 0.0526, 'ZeroDivisionError': 0.3077})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.213, 'SyntaxError': None, 'TypeError': 0.0276, 'ValueError': 0.1053, 'ZeroDivisionError': 0.0769})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0392, 'SyntaxError': None, 'TypeError': 0.005, 'ValueError': 0.0526, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0, 'RecursionError': 0.0465, 'SyntaxError': None, 'TypeError': 0.1303, 'ValueError': 0.0, 'ZeroDivisionError': 0.1538})
+<term>:
+   ('-<value>', {'AssertionError': 0.3043, 'AttributeError': 0.3824, 'RecursionError': 0.1667, 'SyntaxError': 0.04, 'TypeError': 0.2326, 'ValueError': 0.6957, 'ZeroDivisionError': 0.5433})
+ | ('<value>', {'AssertionError': 0.6957, 'AttributeError': 0.6176, 'RecursionError': 0.8333, 'SyntaxError': 0.96, 'TypeError': 0.7674, 'ValueError': 0.3043, 'ZeroDivisionError': 0.4567})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.9118, 'RecursionError': 0.125, 'SyntaxError': 0.0, 'TypeError': 0.7907, 'ValueError': 0.5049, 'ZeroDivisionError': 0.8108})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.0882, 'RecursionError': 0.875, 'SyntaxError': 1.0, 'TypeError': 0.2093, 'ValueError': 0.4951, 'ZeroDivisionError': 0.1892})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.4302, 'AttributeError': 0.3564, 'RecursionError': 0.7097, 'SyntaxError': 0.433, 'TypeError': 0.3419, 'ValueError': 0.4043, 'ZeroDivisionError': 0.1829})
+ | ('<digit>', {'AssertionError': 0.5698, 'AttributeError': 0.6436, 'RecursionError': 0.2903, 'SyntaxError': 0.567, 'TypeError': 0.6581, 'ValueError': 0.5957, 'ZeroDivisionError': 0.8171})
+<digit>:
+   ('1', {'AssertionError': 0.029, 'AttributeError': 0.0792, 'RecursionError': 0.2043, 'SyntaxError': 0.0635, 'TypeError': 0.0, 'ValueError': 0.1064, 'ZeroDivisionError': 0.1707})
+ | ('2', {'AssertionError': 0.1014, 'AttributeError': 0.1584, 'RecursionError': 0.0108, 'SyntaxError': 0.0053, 'TypeError': 0.094, 'ValueError': 0.0, 'ZeroDivisionError': 0.2195})
+ | ('3', {'AssertionError': 0.1014, 'AttributeError': 0.1089, 'RecursionError': 0.0323, 'SyntaxError': 0.164, 'TypeError': 0.0513, 'ValueError': 0.3404, 'ZeroDivisionError': 0.0488})
+ | ('4', {'AssertionError': 0.1449, 'AttributeError': 0.1782, 'RecursionError': 0.172, 'SyntaxError': 0.1323, 'TypeError': 0.2308, 'ValueError': 0.0, 'ZeroDivisionError': 0.0244})
+ | ('5', {'AssertionError': 0.0145, 'AttributeError': 0.1683, 'RecursionError': 0.1828, 'SyntaxError': 0.1111, 'TypeError': 0.0513, 'ValueError': 0.0, 'ZeroDivisionError': 0.061})
+ | ('6', {'AssertionError': 0.1884, 'AttributeError': 0.0198, 'RecursionError': 0.0, 'SyntaxError': 0.2169, 'TypeError': 0.1282, 'ValueError': 0.0, 'ZeroDivisionError': 0.122})
+ | ('7', {'AssertionError': 0.029, 'AttributeError': 0.0891, 'RecursionError': 0.2151, 'SyntaxError': 0.0476, 'TypeError': 0.1111, 'ValueError': 0.0, 'ZeroDivisionError': 0.1098})
+ | ('8', {'AssertionError': 0.2754, 'AttributeError': 0.1584, 'RecursionError': 0.1613, 'SyntaxError': 0.0317, 'TypeError': 0.2393, 'ValueError': 0.2979, 'ZeroDivisionError': 0.0732})
+ | ('9', {'AssertionError': 0.029, 'AttributeError': 0.0, 'RecursionError': 0.0215, 'SyntaxError': 0.0106, 'TypeError': 0.094, 'ValueError': 0.2128, 'ZeroDivisionError': 0.1707})
+ | ('0', {'AssertionError': 0.087, 'AttributeError': 0.0396, 'RecursionError': 0.0, 'SyntaxError': 0.2169, 'TypeError': 0.0, 'ValueError': 0.0426, 'ZeroDivisionError': 0.0})
+Runtime: 49.325862884521484
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.24, 'AttributeError': 1.0, 'RecursionError': 0.8829, 'SyntaxError': 0.24, 'TypeError': 1.0, 'ValueError': 0.6409, 'ZeroDivisionError': 0.5417})
+ | ('<term> / <term>', {'AssertionError': 0.76, 'AttributeError': 0.0, 'RecursionError': 0.1171, 'SyntaxError': 0.76, 'TypeError': 0.0, 'ValueError': 0.3591, 'ZeroDivisionError': 0.4583})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.1667, 'AttributeError': 0.12, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0833, 'ValueError': 0.0833, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.24, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0833, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.16, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0417, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.1667, 'AttributeError': 0.08, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0417, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.12, 'RecursionError': 0.0, 'SyntaxError': 0.3333, 'TypeError': 0.0, 'ValueError': 0.2083, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.6667, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.5, 'TypeError': 0.9167, 'ValueError': 0.0833, 'ZeroDivisionError': 0.6154})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 0.08, 'RecursionError': 0.0, 'SyntaxError': 0.1667, 'TypeError': 0.0, 'ValueError': 0.2083, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.25, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 0.0, 'AttributeError': 0.16, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.3846})
+<term>:
+   ('-<value>', {'AssertionError': 0.6818, 'AttributeError': 0.68, 'RecursionError': 0.0, 'SyntaxError': 0.5413, 'TypeError': 0.4167, 'ValueError': 0.6667, 'ZeroDivisionError': 0.6619})
+ | ('<value>', {'AssertionError': 0.3182, 'AttributeError': 0.32, 'RecursionError': 1.0, 'SyntaxError': 0.4587, 'TypeError': 0.5833, 'ValueError': 0.3333, 'ZeroDivisionError': 0.3381})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.8, 'RecursionError': 0.619, 'SyntaxError': 0.3182, 'TypeError': 0.8333, 'ValueError': 1.0, 'ZeroDivisionError': 0.5429})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.2, 'RecursionError': 0.381, 'SyntaxError': 0.6818, 'TypeError': 0.1667, 'ValueError': 0.0, 'ZeroDivisionError': 0.4571})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3039, 'AttributeError': 0.0341, 'RecursionError': 0.6731, 'SyntaxError': 0.6398, 'TypeError': 0.4359, 'ValueError': 0.2, 'ZeroDivisionError': 0.1429})
+ | ('<digit>', {'AssertionError': 0.6961, 'AttributeError': 0.9659, 'RecursionError': 0.3269, 'SyntaxError': 0.3602, 'TypeError': 0.5641, 'ValueError': 0.8, 'ZeroDivisionError': 0.8571})
+<digit>:
+   ('1', {'AssertionError': 0.1845, 'AttributeError': 0.194, 'RecursionError': 0.0, 'SyntaxError': 0.0373, 'TypeError': 0.1344, 'ValueError': 0.0333, 'ZeroDivisionError': 0.0952})
+ | ('2', {'AssertionError': 0.0194, 'AttributeError': 0.0597, 'RecursionError': 0.25, 'SyntaxError': 0.0745, 'TypeError': 0.0789, 'ValueError': 0.0, 'ZeroDivisionError': 0.0794})
+ | ('3', {'AssertionError': 0.0437, 'AttributeError': 0.1791, 'RecursionError': 0.1058, 'SyntaxError': 0.1366, 'TypeError': 0.007, 'ValueError': 0.0, 'ZeroDivisionError': 0.1429})
+ | ('4', {'AssertionError': 0.0922, 'AttributeError': 0.0597, 'RecursionError': 0.0962, 'SyntaxError': 0.0, 'TypeError': 0.1147, 'ValueError': 0.1, 'ZeroDivisionError': 0.0794})
+ | ('5', {'AssertionError': 0.2087, 'AttributeError': 0.194, 'RecursionError': 0.2308, 'SyntaxError': 0.118, 'TypeError': 0.114, 'ValueError': 0.1833, 'ZeroDivisionError': 0.0635})
+ | ('6', {'AssertionError': 0.0922, 'AttributeError': 0.0149, 'RecursionError': 0.0, 'SyntaxError': 0.2422, 'TypeError': 0.132, 'ValueError': 0.1, 'ZeroDivisionError': 0.0})
+ | ('7', {'AssertionError': 0.2427, 'AttributeError': 0.209, 'RecursionError': 0.0962, 'SyntaxError': 0.2298, 'TypeError': 0.0448, 'ValueError': 0.1, 'ZeroDivisionError': 0.0317})
+ | ('8', {'AssertionError': 0.0, 'AttributeError': 0.0299, 'RecursionError': 0.125, 'SyntaxError': 0.0062, 'TypeError': 0.0767, 'ValueError': 0.1833, 'ZeroDivisionError': 0.2063})
+ | ('9', {'AssertionError': 0.0874, 'AttributeError': 0.0597, 'RecursionError': 0.0962, 'SyntaxError': 0.0683, 'TypeError': 0.1106, 'ValueError': 0.1167, 'ZeroDivisionError': 0.2063})
+ | ('0', {'AssertionError': 0.0291, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.087, 'TypeError': 0.1867, 'ValueError': 0.1833, 'ZeroDivisionError': 0.0952})
+Runtime: 176.41117882728577
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 0.76, 'RecursionError': 1.0, 'SyntaxError': 0.0833, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.25})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.24, 'RecursionError': 0.0, 'SyntaxError': 0.9167, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.75})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.1173, 'RecursionError': 0.0, 'SyntaxError': 0.0504, 'TypeError': 0.0, 'ValueError': 0.0417, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.04, 'AttributeError': 0.1, 'RecursionError': 0.0, 'SyntaxError': 0.1198, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.1702, 'RecursionError': 0.0, 'SyntaxError': 0.1918, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0232, 'RecursionError': 0.0, 'SyntaxError': 0.102, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0816, 'RecursionError': 0.0, 'SyntaxError': 0.0287, 'TypeError': 0.0, 'ValueError': 0.9583, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0993, 'RecursionError': 0.0, 'SyntaxError': 0.1561, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 0.1833, 'RecursionError': 0.0, 'SyntaxError': 0.1896, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.1667})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.1388, 'RecursionError': 1.0, 'SyntaxError': 0.1062, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.5})
+ | ('is_int', {'AssertionError': 0.96, 'AttributeError': 0.0863, 'RecursionError': 0.0, 'SyntaxError': 0.0555, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.3333})
+<term>:
+   ('-<value>', {'AssertionError': 0.4158, 'AttributeError': 1.0, 'RecursionError': 0.6043, 'SyntaxError': 0.2826, 'TypeError': 0.84, 'ValueError': 1.0, 'ZeroDivisionError': 1.0})
+ | ('<value>', {'AssertionError': 0.5842, 'AttributeError': 0.0, 'RecursionError': 0.3957, 'SyntaxError': 0.7174, 'TypeError': 0.16, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.88, 'AttributeError': 0.6452, 'RecursionError': 1.0, 'SyntaxError': 0.2391, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.6828})
+ | ('<integer>', {'AssertionError': 0.12, 'AttributeError': 0.3548, 'RecursionError': 0.0, 'SyntaxError': 0.7609, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.3172})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.5524, 'AttributeError': 0.9172, 'RecursionError': 0.5536, 'SyntaxError': 0.2083, 'TypeError': 0.5058, 'ValueError': 0.8021, 'ZeroDivisionError': 0.56})
+ | ('<digit>', {'AssertionError': 0.4476, 'AttributeError': 0.0828, 'RecursionError': 0.4464, 'SyntaxError': 0.7917, 'TypeError': 0.4942, 'ValueError': 0.1979, 'ZeroDivisionError': 0.44})
+<digit>:
+   ('1', {'AssertionError': 0.0, 'AttributeError': 0.0471, 'RecursionError': 0.0446, 'SyntaxError': 0.0139, 'TypeError': 0.0493, 'ValueError': 0.2151, 'ZeroDivisionError': 0.09})
+ | ('2', {'AssertionError': 0.0, 'AttributeError': 0.0016, 'RecursionError': 0.1161, 'SyntaxError': 0.0278, 'TypeError': 0.1226, 'ValueError': 0.0538, 'ZeroDivisionError': 0.04})
+ | ('3', {'AssertionError': 0.2667, 'AttributeError': 0.2013, 'RecursionError': 0.0893, 'SyntaxError': 0.1389, 'TypeError': 0.0798, 'ValueError': 0.0968, 'ZeroDivisionError': 0.2})
+ | ('4', {'AssertionError': 0.0095, 'AttributeError': 0.0276, 'RecursionError': 0.1161, 'SyntaxError': 0.2222, 'TypeError': 0.0239, 'ValueError': 0.1613, 'ZeroDivisionError': 0.01})
+ | ('5', {'AssertionError': 0.0857, 'AttributeError': 0.0422, 'RecursionError': 0.1429, 'SyntaxError': 0.0833, 'TypeError': 0.1733, 'ValueError': 0.086, 'ZeroDivisionError': 0.24})
+ | ('6', {'AssertionError': 0.0381, 'AttributeError': 0.2305, 'RecursionError': 0.0357, 'SyntaxError': 0.0556, 'TypeError': 0.0856, 'ValueError': 0.0108, 'ZeroDivisionError': 0.03})
+ | ('7', {'AssertionError': 0.1048, 'AttributeError': 0.0341, 'RecursionError': 0.2232, 'SyntaxError': 0.0694, 'TypeError': 0.2038, 'ValueError': 0.172, 'ZeroDivisionError': 0.02})
+ | ('8', {'AssertionError': 0.2952, 'AttributeError': 0.2143, 'RecursionError': 0.1786, 'SyntaxError': 0.1389, 'TypeError': 0.021, 'ValueError': 0.0108, 'ZeroDivisionError': 0.1})
+ | ('9', {'AssertionError': 0.019, 'AttributeError': 0.1656, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.1342, 'ValueError': 0.1828, 'ZeroDivisionError': 0.03})
+ | ('0', {'AssertionError': 0.181, 'AttributeError': 0.0357, 'RecursionError': 0.0536, 'SyntaxError': 0.25, 'TypeError': 0.1066, 'ValueError': 0.0108, 'ZeroDivisionError': 0.24})
+Runtime: 978.1127507686615
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 0.56, 'RecursionError': 1.0, 'SyntaxError': 0.3739, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.52})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.44, 'RecursionError': 0.0, 'SyntaxError': 0.6261, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.48})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.125, 'TypeError': 0.0, 'ValueError': 0.8333, 'ZeroDivisionError': 0.0687})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0809})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.066})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.25, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0634})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.125, 'TypeError': 0.0, 'ValueError': 0.1667, 'ZeroDivisionError': 0.1475})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.125, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.1067})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.1362})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 1.0, 'SyntaxError': 0.125, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.1691})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.25, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.1614})
+<term>:
+   ('-<value>', {'AssertionError': 0.6, 'AttributeError': 0.6245, 'RecursionError': 0.2523, 'SyntaxError': 0.7381, 'TypeError': 0.7647, 'ValueError': 0.3827, 'ZeroDivisionError': 0.6757})
+ | ('<value>', {'AssertionError': 0.4, 'AttributeError': 0.3755, 'RecursionError': 0.7477, 'SyntaxError': 0.2619, 'TypeError': 0.2353, 'ValueError': 0.6173, 'ZeroDivisionError': 0.3243})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.2325, 'AttributeError': 0.8611, 'RecursionError': 0.5238, 'SyntaxError': 0.9286, 'TypeError': 0.7647, 'ValueError': 0.7917, 'ZeroDivisionError': 0.1351})
+ | ('<integer>', {'AssertionError': 0.7675, 'AttributeError': 0.1389, 'RecursionError': 0.4762, 'SyntaxError': 0.0714, 'TypeError': 0.2353, 'ValueError': 0.2083, 'ZeroDivisionError': 0.8649})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.9704, 'AttributeError': 0.2637, 'RecursionError': 0.5556, 'SyntaxError': 0.2636, 'TypeError': 0.1429, 'ValueError': 0.3485, 'ZeroDivisionError': 0.5842})
+ | ('<digit>', {'AssertionError': 0.0296, 'AttributeError': 0.7363, 'RecursionError': 0.4444, 'SyntaxError': 0.7364, 'TypeError': 0.8571, 'ValueError': 0.6515, 'ZeroDivisionError': 0.4158})
+<digit>:
+   ('1', {'AssertionError': 0.0284, 'AttributeError': 0.0, 'RecursionError': 0.2222, 'SyntaxError': 0.2273, 'TypeError': 0.1821, 'ValueError': 0.2273, 'ZeroDivisionError': 0.1188})
+ | ('2', {'AssertionError': 0.0585, 'AttributeError': 0.2308, 'RecursionError': 0.0417, 'SyntaxError': 0.0, 'TypeError': 0.0894, 'ValueError': 0.0, 'ZeroDivisionError': 0.1485})
+ | ('3', {'AssertionError': 0.1348, 'AttributeError': 0.0549, 'RecursionError': 0.1111, 'SyntaxError': 0.0545, 'TypeError': 0.0983, 'ValueError': 0.0455, 'ZeroDivisionError': 0.0})
+ | ('4', {'AssertionError': 0.094, 'AttributeError': 0.2198, 'RecursionError': 0.1944, 'SyntaxError': 0.1091, 'TypeError': 0.1743, 'ValueError': 0.0455, 'ZeroDivisionError': 0.1188})
+ | ('5', {'AssertionError': 0.0, 'AttributeError': 0.0549, 'RecursionError': 0.0972, 'SyntaxError': 0.1818, 'TypeError': 0.0645, 'ValueError': 0.1364, 'ZeroDivisionError': 0.0198})
+ | ('6', {'AssertionError': 0.2855, 'AttributeError': 0.2088, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0528, 'ValueError': 0.1515, 'ZeroDivisionError': 0.2871})
+ | ('7', {'AssertionError': 0.0703, 'AttributeError': 0.1429, 'RecursionError': 0.0972, 'SyntaxError': 0.0455, 'TypeError': 0.0953, 'ValueError': 0.0, 'ZeroDivisionError': 0.0297})
+ | ('8', {'AssertionError': 0.1885, 'AttributeError': 0.022, 'RecursionError': 0.0417, 'SyntaxError': 0.1, 'TypeError': 0.0638, 'ValueError': 0.0758, 'ZeroDivisionError': 0.0792})
+ | ('9', {'AssertionError': 0.0, 'AttributeError': 0.0659, 'RecursionError': 0.0278, 'SyntaxError': 0.1727, 'TypeError': 0.1613, 'ValueError': 0.1818, 'ZeroDivisionError': 0.1485})
+ | ('0', {'AssertionError': 0.1401, 'AttributeError': 0.0, 'RecursionError': 0.1667, 'SyntaxError': 0.1091, 'TypeError': 0.0182, 'ValueError': 0.1364, 'ZeroDivisionError': 0.0495})
+Runtime: 232.87171125411987
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 0.7937, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.1885, 'ZeroDivisionError': 0.2381})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.2063, 'SyntaxError': 1.0, 'TypeError': 0.0, 'ValueError': 0.8115, 'ZeroDivisionError': 0.7619})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.04, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.1383, 'ValueError': 0.48, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.066, 'ValueError': 0.04, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.04, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.18, 'ValueError': 0.04, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.1115, 'ValueError': 0.04, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.12, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.009, 'ValueError': 0.28, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0543, 'ValueError': 0.04, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0796, 'ValueError': 0.04, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 1.0, 'SyntaxError': None, 'TypeError': 0.1825, 'ValueError': 0.04, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 0.8, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.1789, 'ValueError': 0.0, 'ZeroDivisionError': 1.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.8108, 'AttributeError': 0.4, 'RecursionError': 0.0, 'SyntaxError': 0.7, 'TypeError': 0.875, 'ValueError': 1.0, 'ZeroDivisionError': 0.5135})
+ | ('<value>', {'AssertionError': 0.1892, 'AttributeError': 0.6, 'RecursionError': 1.0, 'SyntaxError': 0.3, 'TypeError': 0.125, 'ValueError': 0.0, 'ZeroDivisionError': 0.4865})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.5059, 'RecursionError': 0.2609, 'SyntaxError': 0.18, 'TypeError': 0.9583, 'ValueError': 0.64, 'ZeroDivisionError': 0.2703})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.4941, 'RecursionError': 0.7391, 'SyntaxError': 0.82, 'TypeError': 0.0417, 'ValueError': 0.36, 'ZeroDivisionError': 0.7297})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3056, 'AttributeError': 0.2258, 'RecursionError': 0.642, 'SyntaxError': 0.4832, 'TypeError': 0.4471, 'ValueError': 0.7574, 'ZeroDivisionError': 0.0})
+ | ('<digit>', {'AssertionError': 0.6944, 'AttributeError': 0.7742, 'RecursionError': 0.358, 'SyntaxError': 0.5168, 'TypeError': 0.5529, 'ValueError': 0.2426, 'ZeroDivisionError': 1.0})
+<digit>:
+   ('1', {'AssertionError': 0.1806, 'AttributeError': 0.1935, 'RecursionError': 0.0741, 'SyntaxError': 0.0649, 'TypeError': 0.2824, 'ValueError': 0.1598, 'ZeroDivisionError': 0.1197})
+ | ('2', {'AssertionError': 0.0694, 'AttributeError': 0.129, 'RecursionError': 0.0617, 'SyntaxError': 0.1299, 'TypeError': 0.0824, 'ValueError': 0.0118, 'ZeroDivisionError': 0.1255})
+ | ('3', {'AssertionError': 0.1389, 'AttributeError': 0.0645, 'RecursionError': 0.0741, 'SyntaxError': 0.0714, 'TypeError': 0.0235, 'ValueError': 0.0769, 'ZeroDivisionError': 0.15})
+ | ('4', {'AssertionError': 0.1389, 'AttributeError': 0.3226, 'RecursionError': 0.0617, 'SyntaxError': 0.0844, 'TypeError': 0.0471, 'ValueError': 0.1183, 'ZeroDivisionError': 0.0848})
+ | ('5', {'AssertionError': 0.0278, 'AttributeError': 0.0968, 'RecursionError': 0.2222, 'SyntaxError': 0.026, 'TypeError': 0.0118, 'ValueError': 0.1243, 'ZeroDivisionError': 0.0193})
+ | ('6', {'AssertionError': 0.1667, 'AttributeError': 0.0, 'RecursionError': 0.1111, 'SyntaxError': 0.0909, 'TypeError': 0.1176, 'ValueError': 0.2249, 'ZeroDivisionError': 0.08})
+ | ('7', {'AssertionError': 0.0556, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0195, 'TypeError': 0.0235, 'ValueError': 0.1361, 'ZeroDivisionError': 0.1527})
+ | ('8', {'AssertionError': 0.1528, 'AttributeError': 0.0, 'RecursionError': 0.3704, 'SyntaxError': 0.1364, 'TypeError': 0.0824, 'ValueError': 0.0118, 'ZeroDivisionError': 0.1147})
+ | ('9', {'AssertionError': 0.0694, 'AttributeError': 0.1935, 'RecursionError': 0.0, 'SyntaxError': 0.0974, 'TypeError': 0.1647, 'ValueError': 0.0769, 'ZeroDivisionError': 0.0313})
+ | ('0', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0247, 'SyntaxError': 0.2792, 'TypeError': 0.1647, 'ValueError': 0.0592, 'ZeroDivisionError': 0.122})
+Runtime: 49.362669229507446
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.3774, 'ValueError': 1.0, 'ZeroDivisionError': 0.619})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 1.0, 'TypeError': 0.6226, 'ValueError': 0.0, 'ZeroDivisionError': 0.381})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.04, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.1417, 'ZeroDivisionError': 0.4615})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.1491, 'ZeroDivisionError': 0.3846})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.04, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.052, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.24, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.1463, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.08, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.1556, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.12, 'SyntaxError': None, 'TypeError': 1.0, 'ValueError': 0.1089, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.12, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.134, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.08, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.0964, 'ZeroDivisionError': 0.0769})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0, 'RecursionError': 0.28, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.0161, 'ZeroDivisionError': 0.0769})
+<term>:
+   ('-<value>', {'AssertionError': 0.24, 'AttributeError': 0.7449, 'RecursionError': 0.016, 'SyntaxError': 0.72, 'TypeError': 0.1579, 'ValueError': 1.0, 'ZeroDivisionError': 0.7241})
+ | ('<value>', {'AssertionError': 0.76, 'AttributeError': 0.2551, 'RecursionError': 0.984, 'SyntaxError': 0.28, 'TypeError': 0.8421, 'ValueError': 0.0, 'ZeroDivisionError': 0.2759})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.84, 'RecursionError': 0.24, 'SyntaxError': 0.5, 'TypeError': 0.5263, 'ValueError': 0.5217, 'ZeroDivisionError': 0.2453})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.16, 'RecursionError': 0.76, 'SyntaxError': 0.5, 'TypeError': 0.4737, 'ValueError': 0.4783, 'ZeroDivisionError': 0.7547})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.5893, 'AttributeError': 0.632, 'RecursionError': 0.7182, 'SyntaxError': 0.7533, 'TypeError': 0.4912, 'ValueError': 0.7059, 'ZeroDivisionError': 0.0})
+ | ('<digit>', {'AssertionError': 0.4107, 'AttributeError': 0.368, 'RecursionError': 0.2818, 'SyntaxError': 0.2467, 'TypeError': 0.5088, 'ValueError': 0.2941, 'ZeroDivisionError': 1.0})
+<digit>:
+   ('1', {'AssertionError': 0.1139, 'AttributeError': 0.16, 'RecursionError': 0.1182, 'SyntaxError': 0.0, 'TypeError': 0.0702, 'ValueError': 0.0168, 'ZeroDivisionError': 0.0})
+ | ('2', {'AssertionError': 0.0253, 'AttributeError': 0.088, 'RecursionError': 0.1364, 'SyntaxError': 0.1988, 'TypeError': 0.2807, 'ValueError': 0.2017, 'ZeroDivisionError': 0.0238})
+ | ('3', {'AssertionError': 0.157, 'AttributeError': 0.056, 'RecursionError': 0.0364, 'SyntaxError': 0.1867, 'TypeError': 0.0877, 'ValueError': 0.1008, 'ZeroDivisionError': 0.0952})
+ | ('4', {'AssertionError': 0.1392, 'AttributeError': 0.144, 'RecursionError': 0.0, 'SyntaxError': 0.1265, 'TypeError': 0.0526, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('5', {'AssertionError': 0.0734, 'AttributeError': 0.056, 'RecursionError': 0.2182, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.042, 'ZeroDivisionError': 0.1667})
+ | ('6', {'AssertionError': 0.0962, 'AttributeError': 0.12, 'RecursionError': 0.0, 'SyntaxError': 0.0663, 'TypeError': 0.0351, 'ValueError': 0.2185, 'ZeroDivisionError': 0.2143})
+ | ('7', {'AssertionError': 0.0937, 'AttributeError': 0.104, 'RecursionError': 0.0818, 'SyntaxError': 0.1145, 'TypeError': 0.1579, 'ValueError': 0.1513, 'ZeroDivisionError': 0.1667})
+ | ('8', {'AssertionError': 0.0506, 'AttributeError': 0.08, 'RecursionError': 0.2727, 'SyntaxError': 0.0663, 'TypeError': 0.2281, 'ValueError': 0.1092, 'ZeroDivisionError': 0.0})
+ | ('9', {'AssertionError': 0.0354, 'AttributeError': 0.072, 'RecursionError': 0.0091, 'SyntaxError': 0.0964, 'TypeError': 0.0351, 'ValueError': 0.084, 'ZeroDivisionError': 0.1429})
+ | ('0', {'AssertionError': 0.2152, 'AttributeError': 0.12, 'RecursionError': 0.1273, 'SyntaxError': 0.1446, 'TypeError': 0.0526, 'ValueError': 0.0756, 'ZeroDivisionError': 0.1905})
+Runtime: 48.80926728248596
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 0.4145, 'RecursionError': 1.0, 'SyntaxError': 0.1667, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 1.0})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.5855, 'RecursionError': 0.0, 'SyntaxError': 0.8333, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1138, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.4091, 'ZeroDivisionError': 0.16})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0212, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.28})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1139, 'SyntaxError': 0.75, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.08})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1709, 'SyntaxError': 0.25, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1381, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.5909, 'ZeroDivisionError': 0.2})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1443, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.04})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.1077, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.04})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.1769, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.12})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0, 'RecursionError': 0.0132, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.08})
+<term>:
+   ('-<value>', {'AssertionError': 0.7727, 'AttributeError': 0.4091, 'RecursionError': 0.0, 'SyntaxError': 0.5455, 'TypeError': 0.3301, 'ValueError': 1.0, 'ZeroDivisionError': 0.9617})
+ | ('<value>', {'AssertionError': 0.2273, 'AttributeError': 0.5909, 'RecursionError': 1.0, 'SyntaxError': 0.4545, 'TypeError': 0.6699, 'ValueError': 0.0, 'ZeroDivisionError': 0.0383})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.8182, 'AttributeError': 0.6364, 'RecursionError': 0.8333, 'SyntaxError': 0.2546, 'TypeError': 0.28, 'ValueError': 0.6818, 'ZeroDivisionError': 1.0})
+ | ('<integer>', {'AssertionError': 0.1818, 'AttributeError': 0.3636, 'RecursionError': 0.1667, 'SyntaxError': 0.7454, 'TypeError': 0.72, 'ValueError': 0.3182, 'ZeroDivisionError': 0.0})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3549, 'AttributeError': 0.5443, 'RecursionError': 0.6857, 'SyntaxError': 0.584, 'TypeError': 0.8072, 'ValueError': 0.5052, 'ZeroDivisionError': 0.8677})
+ | ('<digit>', {'AssertionError': 0.6451, 'AttributeError': 0.4557, 'RecursionError': 0.3143, 'SyntaxError': 0.416, 'TypeError': 0.1928, 'ValueError': 0.4948, 'ZeroDivisionError': 0.1323})
+<digit>:
+   ('1', {'AssertionError': 0.0, 'AttributeError': 0.0127, 'RecursionError': 0.1786, 'SyntaxError': 0.024, 'TypeError': 0.1386, 'ValueError': 0.0, 'ZeroDivisionError': 0.1561})
+ | ('2', {'AssertionError': 0.0096, 'AttributeError': 0.1646, 'RecursionError': 0.0071, 'SyntaxError': 0.0, 'TypeError': 0.0663, 'ValueError': 0.0962, 'ZeroDivisionError': 0.1085})
+ | ('3', {'AssertionError': 0.0192, 'AttributeError': 0.1519, 'RecursionError': 0.1786, 'SyntaxError': 0.0, 'TypeError': 0.0904, 'ValueError': 0.0577, 'ZeroDivisionError': 0.0106})
+ | ('4', {'AssertionError': 0.0865, 'AttributeError': 0.0506, 'RecursionError': 0.0643, 'SyntaxError': 0.344, 'TypeError': 0.1446, 'ValueError': 0.25, 'ZeroDivisionError': 0.0397})
+ | ('5', {'AssertionError': 0.0, 'AttributeError': 0.1139, 'RecursionError': 0.0929, 'SyntaxError': 0.176, 'TypeError': 0.0843, 'ValueError': 0.1731, 'ZeroDivisionError': 0.082})
+ | ('6', {'AssertionError': 0.2019, 'AttributeError': 0.1139, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0602, 'ValueError': 0.1346, 'ZeroDivisionError': 0.1693})
+ | ('7', {'AssertionError': 0.0096, 'AttributeError': 0.0253, 'RecursionError': 0.2143, 'SyntaxError': 0.0, 'TypeError': 0.1386, 'ValueError': 0.0962, 'ZeroDivisionError': 0.1005})
+ | ('8', {'AssertionError': 0.2308, 'AttributeError': 0.1392, 'RecursionError': 0.15, 'SyntaxError': 0.128, 'TypeError': 0.0783, 'ValueError': 0.1154, 'ZeroDivisionError': 0.0})
+ | ('9', {'AssertionError': 0.1731, 'AttributeError': 0.2152, 'RecursionError': 0.0929, 'SyntaxError': 0.136, 'TypeError': 0.0723, 'ValueError': 0.0385, 'ZeroDivisionError': 0.1852})
+ | ('0', {'AssertionError': 0.2692, 'AttributeError': 0.0127, 'RecursionError': 0.0214, 'SyntaxError': 0.192, 'TypeError': 0.1265, 'ValueError': 0.0385, 'ZeroDivisionError': 0.1481})
+Runtime: 49.982144355773926
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 0.84, 'SyntaxError': 0.44, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.6818})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.16, 'SyntaxError': 0.56, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.3182})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.086, 'TypeError': 0.0, 'ValueError': 0.24, 'ZeroDivisionError': 0.3333})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0865, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.2})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.1302, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0928, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0595, 'TypeError': 0.0, 'ValueError': 0.76, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.189, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.0, 'SyntaxError': 0.1496, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 1.0, 'SyntaxError': 0.1683, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.4667})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0381, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.75, 'AttributeError': 0.7753, 'RecursionError': 0.0, 'SyntaxError': 1.0, 'TypeError': 0.64, 'ValueError': 0.4752, 'ZeroDivisionError': 0.2069})
+ | ('<value>', {'AssertionError': 0.25, 'AttributeError': 0.2247, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.36, 'ValueError': 0.5248, 'ZeroDivisionError': 0.7931})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.5657, 'AttributeError': 0.5652, 'RecursionError': 0.3103, 'SyntaxError': 0.0256, 'TypeError': 0.76, 'ValueError': 0.92, 'ZeroDivisionError': 0.4828})
+ | ('<integer>', {'AssertionError': 0.4343, 'AttributeError': 0.4348, 'RecursionError': 0.6897, 'SyntaxError': 0.9744, 'TypeError': 0.24, 'ValueError': 0.08, 'ZeroDivisionError': 0.5172})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.4353, 'AttributeError': 0.6044, 'RecursionError': 0.7008, 'SyntaxError': 0.7884, 'TypeError': 0.538, 'ValueError': 0.6496, 'ZeroDivisionError': 0.3582})
+ | ('<digit>', {'AssertionError': 0.5647, 'AttributeError': 0.3956, 'RecursionError': 0.2992, 'SyntaxError': 0.2116, 'TypeError': 0.462, 'ValueError': 0.3504, 'ZeroDivisionError': 0.6418})
+<digit>:
+   ('1', {'AssertionError': 0.0353, 'AttributeError': 0.0769, 'RecursionError': 0.0643, 'SyntaxError': 0.0476, 'TypeError': 0.1812, 'ValueError': 0.1971, 'ZeroDivisionError': 0.0548})
+ | ('2', {'AssertionError': 0.0588, 'AttributeError': 0.0879, 'RecursionError': 0.1293, 'SyntaxError': 0.0794, 'TypeError': 0.2826, 'ValueError': 0.1314, 'ZeroDivisionError': 0.1301})
+ | ('3', {'AssertionError': 0.0471, 'AttributeError': 0.1099, 'RecursionError': 0.138, 'SyntaxError': 0.1799, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.1495})
+ | ('4', {'AssertionError': 0.2706, 'AttributeError': 0.1648, 'RecursionError': 0.0581, 'SyntaxError': 0.1005, 'TypeError': 0.0217, 'ValueError': 0.1022, 'ZeroDivisionError': 0.1902})
+ | ('5', {'AssertionError': 0.1176, 'AttributeError': 0.011, 'RecursionError': 0.1538, 'SyntaxError': 0.0106, 'TypeError': 0.058, 'ValueError': 0.0657, 'ZeroDivisionError': 0.0145})
+ | ('6', {'AssertionError': 0.0588, 'AttributeError': 0.033, 'RecursionError': 0.1584, 'SyntaxError': 0.0582, 'TypeError': 0.0145, 'ValueError': 0.1095, 'ZeroDivisionError': 0.1765})
+ | ('7', {'AssertionError': 0.1059, 'AttributeError': 0.0879, 'RecursionError': 0.0837, 'SyntaxError': 0.0794, 'TypeError': 0.1449, 'ValueError': 0.0, 'ZeroDivisionError': 0.0413})
+ | ('8', {'AssertionError': 0.0353, 'AttributeError': 0.0549, 'RecursionError': 0.1405, 'SyntaxError': 0.0529, 'TypeError': 0.1884, 'ValueError': 0.1606, 'ZeroDivisionError': 0.1509})
+ | ('9', {'AssertionError': 0.1294, 'AttributeError': 0.2637, 'RecursionError': 0.0046, 'SyntaxError': 0.0741, 'TypeError': 0.058, 'ValueError': 0.0949, 'ZeroDivisionError': 0.0353})
+ | ('0', {'AssertionError': 0.1412, 'AttributeError': 0.1099, 'RecursionError': 0.0693, 'SyntaxError': 0.3175, 'TypeError': 0.0507, 'ValueError': 0.1387, 'ZeroDivisionError': 0.0568})
+Runtime: 54.79039120674133
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.96, 'AttributeError': 1.0, 'RecursionError': 1.0, 'SyntaxError': 0.5217, 'TypeError': 0.5409, 'ValueError': 0.5481, 'ZeroDivisionError': 0.12})
+ | ('<term> / <term>', {'AssertionError': 0.04, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.4783, 'TypeError': 0.4591, 'ValueError': 0.4519, 'ZeroDivisionError': 0.88})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.08, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.6667, 'ZeroDivisionError': 1.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.5, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.08, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 0.0, 'SyntaxError': 0.5, 'TypeError': 0.0, 'ValueError': 0.3333, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 0.6, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 1.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.12, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.1096, 'AttributeError': 0.64, 'RecursionError': 0.0, 'SyntaxError': 0.6765, 'TypeError': 0.5, 'ValueError': 1.0, 'ZeroDivisionError': 0.2553})
+ | ('<value>', {'AssertionError': 0.8904, 'AttributeError': 0.36, 'RecursionError': 1.0, 'SyntaxError': 0.3235, 'TypeError': 0.5, 'ValueError': 0.0, 'ZeroDivisionError': 0.7447})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.4068, 'RecursionError': 0.5833, 'SyntaxError': 0.0, 'TypeError': 0.9091, 'ValueError': 0.9615, 'ZeroDivisionError': 0.6787})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.5932, 'RecursionError': 0.4167, 'SyntaxError': 1.0, 'TypeError': 0.0909, 'ValueError': 0.0385, 'ZeroDivisionError': 0.3213})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.6645, 'AttributeError': 0.8009, 'RecursionError': 0.1211, 'SyntaxError': 0.618, 'TypeError': 0.4, 'ValueError': 0.5952, 'ZeroDivisionError': 0.5283})
+ | ('<digit>', {'AssertionError': 0.3355, 'AttributeError': 0.1991, 'RecursionError': 0.8789, 'SyntaxError': 0.382, 'TypeError': 0.6, 'ValueError': 0.4048, 'ZeroDivisionError': 0.4717})
+<digit>:
+   ('1', {'AssertionError': 0.0387, 'AttributeError': 0.1222, 'RecursionError': 0.0, 'SyntaxError': 0.0328, 'TypeError': 0.0429, 'ValueError': 0.2143, 'ZeroDivisionError': 0.0377})
+ | ('2', {'AssertionError': 0.0903, 'AttributeError': 0.0407, 'RecursionError': 0.096, 'SyntaxError': 0.141, 'TypeError': 0.0286, 'ValueError': 0.0079, 'ZeroDivisionError': 0.0283})
+ | ('3', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.184, 'SyntaxError': 0.1077, 'TypeError': 0.3143, 'ValueError': 0.0873, 'ZeroDivisionError': 0.1038})
+ | ('4', {'AssertionError': 0.0, 'AttributeError': 0.1493, 'RecursionError': 0.064, 'SyntaxError': 0.0229, 'TypeError': 0.0, 'ValueError': 0.2222, 'ZeroDivisionError': 0.1321})
+ | ('5', {'AssertionError': 0.0774, 'AttributeError': 0.095, 'RecursionError': 0.024, 'SyntaxError': 0.0651, 'TypeError': 0.0, 'ValueError': 0.0635, 'ZeroDivisionError': 0.0943})
+ | ('6', {'AssertionError': 0.2839, 'AttributeError': 0.2715, 'RecursionError': 0.192, 'SyntaxError': 0.172, 'TypeError': 0.1571, 'ValueError': 0.0, 'ZeroDivisionError': 0.1415})
+ | ('7', {'AssertionError': 0.0, 'AttributeError': 0.1448, 'RecursionError': 0.128, 'SyntaxError': 0.0327, 'TypeError': 0.2429, 'ValueError': 0.1111, 'ZeroDivisionError': 0.1321})
+ | ('8', {'AssertionError': 0.2, 'AttributeError': 0.0995, 'RecursionError': 0.072, 'SyntaxError': 0.1704, 'TypeError': 0.0, 'ValueError': 0.0476, 'ZeroDivisionError': 0.1132})
+ | ('9', {'AssertionError': 0.1677, 'AttributeError': 0.0271, 'RecursionError': 0.152, 'SyntaxError': 0.0784, 'TypeError': 0.1571, 'ValueError': 0.0794, 'ZeroDivisionError': 0.0943})
+ | ('0', {'AssertionError': 0.1419, 'AttributeError': 0.0498, 'RecursionError': 0.088, 'SyntaxError': 0.177, 'TypeError': 0.0571, 'ValueError': 0.1667, 'ZeroDivisionError': 0.1226})
+Runtime: 44.66921424865723
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 0.08, 'SyntaxError': 1.0, 'TypeError': 0.5015, 'ValueError': 0.64, 'ZeroDivisionError': 0.3903})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.92, 'SyntaxError': 0.0, 'TypeError': 0.4985, 'ValueError': 0.36, 'ZeroDivisionError': 0.6097})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.04, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.25, 'ZeroDivisionError': 0.5})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.5, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.5, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.75, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.2, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 1.0, 'RecursionError': 0.5, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.04, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.3, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 0.92, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.5})
+<term>:
+   ('-<value>', {'AssertionError': 0.4882, 'AttributeError': 0.7427, 'RecursionError': 0.9504, 'SyntaxError': 0.75, 'TypeError': 0.7917, 'ValueError': 0.4359, 'ZeroDivisionError': 0.9545})
+ | ('<value>', {'AssertionError': 0.5118, 'AttributeError': 0.2573, 'RecursionError': 0.0496, 'SyntaxError': 0.25, 'TypeError': 0.2083, 'ValueError': 0.5641, 'ZeroDivisionError': 0.0455})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.6087, 'RecursionError': 0.6042, 'SyntaxError': 0.2151, 'TypeError': 0.7083, 'ValueError': 1.0, 'ZeroDivisionError': 0.5682})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.3913, 'RecursionError': 0.3958, 'SyntaxError': 0.7849, 'TypeError': 0.2917, 'ValueError': 0.0, 'ZeroDivisionError': 0.4318})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3056, 'AttributeError': 0.5375, 'RecursionError': 0.438, 'SyntaxError': 0.7183, 'TypeError': 0.7819, 'ValueError': 0.4769, 'ZeroDivisionError': 0.5369})
+ | ('<digit>', {'AssertionError': 0.6944, 'AttributeError': 0.4625, 'RecursionError': 0.562, 'SyntaxError': 0.2817, 'TypeError': 0.2181, 'ValueError': 0.5231, 'ZeroDivisionError': 0.4631})
+<digit>:
+   ('1', {'AssertionError': 0.0278, 'AttributeError': 0.175, 'RecursionError': 0.0511, 'SyntaxError': 0.2254, 'TypeError': 0.0691, 'ValueError': 0.2154, 'ZeroDivisionError': 0.0})
+ | ('2', {'AssertionError': 0.0972, 'AttributeError': 0.1, 'RecursionError': 0.0511, 'SyntaxError': 0.0, 'TypeError': 0.0372, 'ValueError': 0.2077, 'ZeroDivisionError': 0.0201})
+ | ('3', {'AssertionError': 0.1528, 'AttributeError': 0.1, 'RecursionError': 0.0438, 'SyntaxError': 0.0141, 'TypeError': 0.0426, 'ValueError': 0.0462, 'ZeroDivisionError': 0.2013})
+ | ('4', {'AssertionError': 0.0694, 'AttributeError': 0.0125, 'RecursionError': 0.146, 'SyntaxError': 0.0, 'TypeError': 0.1436, 'ValueError': 0.0538, 'ZeroDivisionError': 0.047})
+ | ('5', {'AssertionError': 0.0972, 'AttributeError': 0.1, 'RecursionError': 0.0073, 'SyntaxError': 0.0, 'TypeError': 0.2128, 'ValueError': 0.0769, 'ZeroDivisionError': 0.1544})
+ | ('6', {'AssertionError': 0.1528, 'AttributeError': 0.2125, 'RecursionError': 0.0146, 'SyntaxError': 0.1268, 'TypeError': 0.0745, 'ValueError': 0.0231, 'ZeroDivisionError': 0.0})
+ | ('7', {'AssertionError': 0.0278, 'AttributeError': 0.1, 'RecursionError': 0.2263, 'SyntaxError': 0.0, 'TypeError': 0.1915, 'ValueError': 0.1538, 'ZeroDivisionError': 0.1007})
+ | ('8', {'AssertionError': 0.0556, 'AttributeError': 0.0125, 'RecursionError': 0.1606, 'SyntaxError': 0.0, 'TypeError': 0.0691, 'ValueError': 0.0769, 'ZeroDivisionError': 0.1544})
+ | ('9', {'AssertionError': 0.2917, 'AttributeError': 0.0375, 'RecursionError': 0.1387, 'SyntaxError': 0.0986, 'TypeError': 0.0213, 'ValueError': 0.0615, 'ZeroDivisionError': 0.0336})
+ | ('0', {'AssertionError': 0.0278, 'AttributeError': 0.15, 'RecursionError': 0.1606, 'SyntaxError': 0.5352, 'TypeError': 0.1383, 'ValueError': 0.0846, 'ZeroDivisionError': 0.2886})
+Runtime: 117.2102563381195
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 0.36, 'SyntaxError': 0.67, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.08})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.64, 'SyntaxError': 0.33, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.92})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 0.1111, 'SyntaxError': 0.1667, 'TypeError': 0.0, 'ValueError': 0.4, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.16, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.12, 'RecursionError': 0.1111, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.12, 'RecursionError': 0.1111, 'SyntaxError': 0.3333, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 0.1111, 'SyntaxError': 0.1667, 'TypeError': 0.0, 'ValueError': 0.6, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 0.2222, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 1.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.2, 'RecursionError': 0.3333, 'SyntaxError': 0.1667, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.24, 'RecursionError': 0.0, 'SyntaxError': 0.1667, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.538, 'AttributeError': 0.76, 'RecursionError': 0.3366, 'SyntaxError': 0.2727, 'TypeError': 0.7788, 'ValueError': 0.391, 'ZeroDivisionError': 0.3125})
+ | ('<value>', {'AssertionError': 0.462, 'AttributeError': 0.24, 'RecursionError': 0.6634, 'SyntaxError': 0.7273, 'TypeError': 0.2212, 'ValueError': 0.609, 'ZeroDivisionError': 0.6875})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.92, 'RecursionError': 0.4878, 'SyntaxError': 0.1136, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.25})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.08, 'RecursionError': 0.5122, 'SyntaxError': 0.8864, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.75})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.9465, 'AttributeError': 0.6925, 'RecursionError': 0.1528, 'SyntaxError': 0.7322, 'TypeError': 0.4565, 'ValueError': 0.6324, 'ZeroDivisionError': 0.4286})
+ | ('<digit>', {'AssertionError': 0.0535, 'AttributeError': 0.3075, 'RecursionError': 0.8472, 'SyntaxError': 0.2678, 'TypeError': 0.5435, 'ValueError': 0.3676, 'ZeroDivisionError': 0.5714})
+<digit>:
+   ('1', {'AssertionError': 0.0739, 'AttributeError': 0.0431, 'RecursionError': 0.2639, 'SyntaxError': 0.1475, 'TypeError': 0.2174, 'ValueError': 0.0956, 'ZeroDivisionError': 0.0972})
+ | ('2', {'AssertionError': 0.2377, 'AttributeError': 0.0517, 'RecursionError': 0.0694, 'SyntaxError': 0.1148, 'TypeError': 0.2283, 'ValueError': 0.1765, 'ZeroDivisionError': 0.0613})
+ | ('3', {'AssertionError': 0.1702, 'AttributeError': 0.1121, 'RecursionError': 0.2222, 'SyntaxError': 0.0874, 'TypeError': 0.0978, 'ValueError': 0.1103, 'ZeroDivisionError': 0.1161})
+ | ('4', {'AssertionError': 0.0525, 'AttributeError': 0.1121, 'RecursionError': 0.0, 'SyntaxError': 0.0219, 'TypeError': 0.0435, 'ValueError': 0.0, 'ZeroDivisionError': 0.0072})
+ | ('5', {'AssertionError': 0.2066, 'AttributeError': 0.0259, 'RecursionError': 0.1667, 'SyntaxError': 0.0984, 'TypeError': 0.0217, 'ValueError': 0.0, 'ZeroDivisionError': 0.0785})
+ | ('6', {'AssertionError': 0.0642, 'AttributeError': 0.0259, 'RecursionError': 0.0278, 'SyntaxError': 0.082, 'TypeError': 0.0652, 'ValueError': 0.0441, 'ZeroDivisionError': 0.1868})
+ | ('7', {'AssertionError': 0.0439, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.071, 'TypeError': 0.1087, 'ValueError': 0.2132, 'ZeroDivisionError': 0.0639})
+ | ('8', {'AssertionError': 0.0385, 'AttributeError': 0.0259, 'RecursionError': 0.0278, 'SyntaxError': 0.0437, 'TypeError': 0.1196, 'ValueError': 0.1544, 'ZeroDivisionError': 0.1873})
+ | ('9', {'AssertionError': 0.0621, 'AttributeError': 0.5, 'RecursionError': 0.2222, 'SyntaxError': 0.1366, 'TypeError': 0.0543, 'ValueError': 0.1618, 'ZeroDivisionError': 0.0893})
+ | ('0', {'AssertionError': 0.0503, 'AttributeError': 0.1034, 'RecursionError': 0.0, 'SyntaxError': 0.1967, 'TypeError': 0.0435, 'ValueError': 0.0441, 'ZeroDivisionError': 0.1126})
+Runtime: 48.40768122673035
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 1.0, 'SyntaxError': 0.5879, 'TypeError': 1.0, 'ValueError': 0.96, 'ZeroDivisionError': 0.8505})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.4121, 'TypeError': 0.0, 'ValueError': 0.04, 'ZeroDivisionError': 0.1495})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.16, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.2778, 'ValueError': 0.3333, 'ZeroDivisionError': None})
+ | ('tan', {'AssertionError': 0.04, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.1667, 'ValueError': 0.0417, 'ZeroDivisionError': None})
+ | ('cos', {'AssertionError': 0.04, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.125, 'ZeroDivisionError': None})
+ | ('sin', {'AssertionError': 0.12, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.1111, 'ValueError': 0.0417, 'ZeroDivisionError': None})
+ | ('log', {'AssertionError': 0.08, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.1667, 'ZeroDivisionError': None})
+ | ('len', {'AssertionError': 0.08, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.1667, 'ValueError': 0.0, 'ZeroDivisionError': None})
+ | ('inc', {'AssertionError': 0.16, 'AttributeError': 1.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.1111, 'ValueError': 0.125, 'ZeroDivisionError': None})
+ | ('factorial', {'AssertionError': 0.08, 'AttributeError': 0.0, 'RecursionError': 1.0, 'SyntaxError': None, 'TypeError': 0.1667, 'ValueError': 0.0417, 'ZeroDivisionError': None})
+ | ('is_int', {'AssertionError': 0.24, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': None, 'TypeError': 0.0, 'ValueError': 0.125, 'ZeroDivisionError': None})
+<term>:
+   ('-<value>', {'AssertionError': 0.48, 'AttributeError': 0.36, 'RecursionError': 0.0, 'SyntaxError': 0.68, 'TypeError': 0.3889, 'ValueError': 0.1538, 'ZeroDivisionError': 0.2})
+ | ('<value>', {'AssertionError': 0.52, 'AttributeError': 0.64, 'RecursionError': 1.0, 'SyntaxError': 0.32, 'TypeError': 0.6111, 'ValueError': 0.8462, 'ZeroDivisionError': 0.8})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.5629, 'AttributeError': 0.68, 'RecursionError': 0.6667, 'SyntaxError': 0.28, 'TypeError': 0.5, 'ValueError': 1.0, 'ZeroDivisionError': 0.66})
+ | ('<integer>', {'AssertionError': 0.4371, 'AttributeError': 0.32, 'RecursionError': 0.3333, 'SyntaxError': 0.72, 'TypeError': 0.5, 'ValueError': 0.0, 'ZeroDivisionError': 0.34})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3506, 'AttributeError': 0.8484, 'RecursionError': 0.3342, 'SyntaxError': 0.6938, 'TypeError': 0.1546, 'ValueError': 0.6286, 'ZeroDivisionError': 0.5931})
+ | ('<digit>', {'AssertionError': 0.6494, 'AttributeError': 0.1516, 'RecursionError': 0.6658, 'SyntaxError': 0.3062, 'TypeError': 0.8454, 'ValueError': 0.3714, 'ZeroDivisionError': 0.4069})
+<digit>:
+   ('1', {'AssertionError': 0.0909, 'AttributeError': 0.0916, 'RecursionError': 0.0513, 'SyntaxError': 0.0574, 'TypeError': 0.4828, 'ValueError': 0.0157, 'ZeroDivisionError': 0.1471})
+ | ('2', {'AssertionError': 0.0, 'AttributeError': 0.1603, 'RecursionError': 0.1795, 'SyntaxError': 0.0048, 'TypeError': 0.0, 'ValueError': 0.101, 'ZeroDivisionError': 0.1422})
+ | ('3', {'AssertionError': 0.026, 'AttributeError': 0.0902, 'RecursionError': 0.0, 'SyntaxError': 0.0861, 'TypeError': 0.0, 'ValueError': 0.0211, 'ZeroDivisionError': 0.0637})
+ | ('4', {'AssertionError': 0.013, 'AttributeError': 0.0508, 'RecursionError': 0.1795, 'SyntaxError': 0.2823, 'TypeError': 0.069, 'ValueError': 0.1337, 'ZeroDivisionError': 0.0931})
+ | ('5', {'AssertionError': 0.0649, 'AttributeError': 0.0557, 'RecursionError': 0.2308, 'SyntaxError': 0.0096, 'TypeError': 0.0345, 'ValueError': 0.0582, 'ZeroDivisionError': 0.0784})
+ | ('6', {'AssertionError': 0.1688, 'AttributeError': 0.1675, 'RecursionError': 0.2564, 'SyntaxError': 0.11, 'TypeError': 0.0, 'ValueError': 0.1878, 'ZeroDivisionError': 0.1078})
+ | ('7', {'AssertionError': 0.1688, 'AttributeError': 0.1312, 'RecursionError': 0.0, 'SyntaxError': 0.0191, 'TypeError': 0.1379, 'ValueError': 0.1395, 'ZeroDivisionError': 0.0539})
+ | ('8', {'AssertionError': 0.2597, 'AttributeError': 0.1619, 'RecursionError': 0.0, 'SyntaxError': 0.0526, 'TypeError': 0.1034, 'ValueError': 0.0172, 'ZeroDivisionError': 0.0882})
+ | ('9', {'AssertionError': 0.0519, 'AttributeError': 0.0065, 'RecursionError': 0.1026, 'SyntaxError': 0.2536, 'TypeError': 0.0, 'ValueError': 0.19, 'ZeroDivisionError': 0.1716})
+ | ('0', {'AssertionError': 0.1558, 'AttributeError': 0.0845, 'RecursionError': 0.0, 'SyntaxError': 0.1244, 'TypeError': 0.1724, 'ValueError': 0.1359, 'ZeroDivisionError': 0.0539})
+Runtime: 212.86657881736755
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 0.16, 'AttributeError': 1.0, 'RecursionError': 1.0, 'SyntaxError': 0.52, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.12})
+ | ('<term> / <term>', {'AssertionError': 0.84, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.48, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.88})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.0769, 'TypeError': 0.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.25, 'AttributeError': 0.2, 'RecursionError': 0.0, 'SyntaxError': 0.1538, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 0.0, 'SyntaxError': 0.1538, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.3333})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.04, 'RecursionError': 0.0, 'SyntaxError': 0.0769, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.25, 'AttributeError': 0.12, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.6667})
+ | ('len', {'AssertionError': 0.25, 'AttributeError': 0.16, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 1.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.25, 'AttributeError': 0.36, 'RecursionError': 0.0, 'SyntaxError': 0.1538, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 1.0, 'SyntaxError': 0.3846, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('is_int', {'AssertionError': 0.0, 'AttributeError': 0.08, 'RecursionError': 0.0, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.1522, 'AttributeError': 0.56, 'RecursionError': 0.6619, 'SyntaxError': 0.3243, 'TypeError': 0.76, 'ValueError': 0.1232, 'ZeroDivisionError': 0.617})
+ | ('<value>', {'AssertionError': 0.8478, 'AttributeError': 0.44, 'RecursionError': 0.3381, 'SyntaxError': 0.6757, 'TypeError': 0.24, 'ValueError': 0.8768, 'ZeroDivisionError': 0.383})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 0.8043, 'AttributeError': 0.24, 'RecursionError': 0.7273, 'SyntaxError': 0.2148, 'TypeError': 1.0, 'ValueError': 0.5833, 'ZeroDivisionError': 0.2881})
+ | ('<integer>', {'AssertionError': 0.1957, 'AttributeError': 0.76, 'RecursionError': 0.2727, 'SyntaxError': 0.7852, 'TypeError': 0.0, 'ValueError': 0.4167, 'ZeroDivisionError': 0.7119})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.6626, 'AttributeError': 0.631, 'RecursionError': 0.1739, 'SyntaxError': 0.6273, 'TypeError': 0.4737, 'ValueError': 0.7935, 'ZeroDivisionError': 0.8447})
+ | ('<digit>', {'AssertionError': 0.3374, 'AttributeError': 0.369, 'RecursionError': 0.8261, 'SyntaxError': 0.3727, 'TypeError': 0.5263, 'ValueError': 0.2065, 'ZeroDivisionError': 0.1553})
+<digit>:
+   ('1', {'AssertionError': 0.0407, 'AttributeError': 0.0928, 'RecursionError': 0.0435, 'SyntaxError': 0.1801, 'TypeError': 0.085, 'ValueError': 0.0, 'ZeroDivisionError': 0.1026})
+ | ('2', {'AssertionError': 0.2706, 'AttributeError': 0.1298, 'RecursionError': 0.2174, 'SyntaxError': 0.0062, 'TypeError': 0.0616, 'ValueError': 0.0054, 'ZeroDivisionError': 0.1132})
+ | ('3', {'AssertionError': 0.1774, 'AttributeError': 0.079, 'RecursionError': 0.0435, 'SyntaxError': 0.0621, 'TypeError': 0.013, 'ValueError': 0.1685, 'ZeroDivisionError': 0.1553})
+ | ('4', {'AssertionError': 0.1509, 'AttributeError': 0.0814, 'RecursionError': 0.4348, 'SyntaxError': 0.0, 'TypeError': 0.0633, 'ValueError': 0.0761, 'ZeroDivisionError': 0.0053})
+ | ('5', {'AssertionError': 0.0307, 'AttributeError': 0.042, 'RecursionError': 0.1304, 'SyntaxError': 0.1801, 'TypeError': 0.1414, 'ValueError': 0.1141, 'ZeroDivisionError': 0.0947})
+ | ('6', {'AssertionError': 0.0249, 'AttributeError': 0.1329, 'RecursionError': 0.0435, 'SyntaxError': 0.1242, 'TypeError': 0.0955, 'ValueError': 0.0761, 'ZeroDivisionError': 0.1605})
+ | ('7', {'AssertionError': 0.0461, 'AttributeError': 0.0864, 'RecursionError': 0.0435, 'SyntaxError': 0.2671, 'TypeError': 0.0609, 'ValueError': 0.1739, 'ZeroDivisionError': 0.15})
+ | ('8', {'AssertionError': 0.0888, 'AttributeError': 0.14, 'RecursionError': 0.0, 'SyntaxError': 0.0373, 'TypeError': 0.1404, 'ValueError': 0.0217, 'ZeroDivisionError': 0.0184})
+ | ('9', {'AssertionError': 0.1401, 'AttributeError': 0.1672, 'RecursionError': 0.0, 'SyntaxError': 0.0745, 'TypeError': 0.1655, 'ValueError': 0.163, 'ZeroDivisionError': 0.0474})
+ | ('0', {'AssertionError': 0.0299, 'AttributeError': 0.0485, 'RecursionError': 0.0435, 'SyntaxError': 0.0683, 'TypeError': 0.1732, 'ValueError': 0.2011, 'ZeroDivisionError': 0.1526})
+Runtime: 41.61406660079956
+Exceptiontypes: 7
+<start>:
+   ('<start1>', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<start1>:
+   ('<expr>', {'AssertionError': 1.0, 'AttributeError': 1.0, 'RecursionError': 1.0, 'SyntaxError': 0.8294, 'TypeError': 1.0, 'ValueError': 1.0, 'ZeroDivisionError': 0.5843})
+ | ('<term> / <term>', {'AssertionError': 0.0, 'AttributeError': 0.0, 'RecursionError': 0.0, 'SyntaxError': 0.1706, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.4157})
+<expr>:
+   ('<function>(<term>)', {'AssertionError': None, 'AttributeError': None, 'RecursionError': None, 'SyntaxError': None, 'TypeError': None, 'ValueError': None, 'ZeroDivisionError': None})
+<function>:
+   ('sqrt', {'AssertionError': 0.0, 'AttributeError': 0.215, 'RecursionError': 0.0403, 'SyntaxError': 0.0, 'TypeError': 0.0833, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('tan', {'AssertionError': 0.0, 'AttributeError': 0.0398, 'RecursionError': 0.0447, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.8696})
+ | ('cos', {'AssertionError': 0.0, 'AttributeError': 0.0978, 'RecursionError': 0.2433, 'SyntaxError': 0.3, 'TypeError': 0.0833, 'ValueError': 0.15, 'ZeroDivisionError': 0.0})
+ | ('sin', {'AssertionError': 0.0, 'AttributeError': 0.1701, 'RecursionError': 0.0172, 'SyntaxError': 0.4, 'TypeError': 0.0, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('log', {'AssertionError': 0.0, 'AttributeError': 0.0352, 'RecursionError': 0.0234, 'SyntaxError': 0.0, 'TypeError': 0.0833, 'ValueError': 0.0, 'ZeroDivisionError': 0.0})
+ | ('len', {'AssertionError': 0.0, 'AttributeError': 0.0702, 'RecursionError': 0.1865, 'SyntaxError': 0.0, 'TypeError': 0.5417, 'ValueError': 0.3, 'ZeroDivisionError': 0.0})
+ | ('inc', {'AssertionError': 0.0, 'AttributeError': 0.1317, 'RecursionError': 0.0079, 'SyntaxError': 0.0, 'TypeError': 0.0833, 'ValueError': 0.3, 'ZeroDivisionError': 0.0})
+ | ('factorial', {'AssertionError': 0.0, 'AttributeError': 0.2332, 'RecursionError': 0.0108, 'SyntaxError': 0.3, 'TypeError': 0.125, 'ValueError': 0.15, 'ZeroDivisionError': 0.1304})
+ | ('is_int', {'AssertionError': 1.0, 'AttributeError': 0.007, 'RecursionError': 0.426, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.1, 'ZeroDivisionError': 0.0})
+<term>:
+   ('-<value>', {'AssertionError': 0.5263, 'AttributeError': 0.1667, 'RecursionError': 0.0, 'SyntaxError': 0.5526, 'TypeError': 0.0119, 'ValueError': 0.9, 'ZeroDivisionError': 0.4444})
+ | ('<value>', {'AssertionError': 0.4737, 'AttributeError': 0.8333, 'RecursionError': 1.0, 'SyntaxError': 0.4474, 'TypeError': 0.9881, 'ValueError': 0.1, 'ZeroDivisionError': 0.5556})
+<value>:
+   ('<integer>.<integer>', {'AssertionError': 1.0, 'AttributeError': 0.875, 'RecursionError': 0.92, 'SyntaxError': 0.2105, 'TypeError': 0.5, 'ValueError': 0.0591, 'ZeroDivisionError': 1.0})
+ | ('<integer>', {'AssertionError': 0.0, 'AttributeError': 0.125, 'RecursionError': 0.08, 'SyntaxError': 0.7895, 'TypeError': 0.5, 'ValueError': 0.9409, 'ZeroDivisionError': 0.0})
+<integer>:
+   ('<digit><integer>', {'AssertionError': 0.3319, 'AttributeError': 0.4444, 'RecursionError': 0.6336, 'SyntaxError': 0.6068, 'TypeError': 0.5385, 'ValueError': 0.3696, 'ZeroDivisionError': 0.5814})
+ | ('<digit>', {'AssertionError': 0.6681, 'AttributeError': 0.5556, 'RecursionError': 0.3664, 'SyntaxError': 0.3932, 'TypeError': 0.4615, 'ValueError': 0.6304, 'ZeroDivisionError': 0.4186})
+<digit>:
+   ('1', {'AssertionError': 0.0164, 'AttributeError': 0.1481, 'RecursionError': 0.0305, 'SyntaxError': 0.0, 'TypeError': 0.0513, 'ValueError': 0.0435, 'ZeroDivisionError': 0.0543})
+ | ('2', {'AssertionError': 0.0, 'AttributeError': 0.1605, 'RecursionError': 0.084, 'SyntaxError': 0.0085, 'TypeError': 0.0769, 'ValueError': 0.1304, 'ZeroDivisionError': 0.0233})
+ | ('3', {'AssertionError': 0.1475, 'AttributeError': 0.1235, 'RecursionError': 0.0382, 'SyntaxError': 0.0, 'TypeError': 0.141, 'ValueError': 0.0435, 'ZeroDivisionError': 0.2403})
+ | ('4', {'AssertionError': 0.2295, 'AttributeError': 0.0864, 'RecursionError': 0.1298, 'SyntaxError': 0.0256, 'TypeError': 0.0641, 'ValueError': 0.2826, 'ZeroDivisionError': 0.093})
+ | ('5', {'AssertionError': 0.082, 'AttributeError': 0.0617, 'RecursionError': 0.1603, 'SyntaxError': 0.0, 'TypeError': 0.0, 'ValueError': 0.0435, 'ZeroDivisionError': 0.0853})
+ | ('6', {'AssertionError': 0.0, 'AttributeError': 0.1111, 'RecursionError': 0.1832, 'SyntaxError': 0.0171, 'TypeError': 0.1026, 'ValueError': 0.0217, 'ZeroDivisionError': 0.0388})
+ | ('7', {'AssertionError': 0.1148, 'AttributeError': 0.0988, 'RecursionError': 0.0458, 'SyntaxError': 0.3504, 'TypeError': 0.0, 'ValueError': 0.1522, 'ZeroDivisionError': 0.124})
+ | ('8', {'AssertionError': 0.0984, 'AttributeError': 0.0, 'RecursionError': 0.0458, 'SyntaxError': 0.0855, 'TypeError': 0.1538, 'ValueError': 0.0217, 'ZeroDivisionError': 0.1395})
+ | ('9', {'AssertionError': 0.1639, 'AttributeError': 0.0, 'RecursionError': 0.1069, 'SyntaxError': 0.1966, 'TypeError': 0.3333, 'ValueError': 0.2609, 'ZeroDivisionError': 0.155})
+ | ('0', {'AssertionError': 0.1475, 'AttributeError': 0.2099, 'RecursionError': 0.1756, 'SyntaxError': 0.3162, 'TypeError': 0.0769, 'ValueError': 0.0, 'ZeroDivisionError': 0.0465})
